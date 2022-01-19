@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend.make
@@ -57,33 +57,33 @@ include CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/progress
 # Include the compile flags for this target's objects.
 include CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/lib/python3.7/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
-rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
+rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp: rosidl_adapter/rtsd_interfaces/msg/Point2.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
+	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o: CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o -c /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o -c /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp > CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp > CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.i
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.s
 
 # Object files for target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp
 rtsd_interfaces__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
@@ -94,19 +94,19 @@ rtsd_interfaces__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o
 librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/rmw/lib/librmw.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/rosidl_typesupport_fastrtps_cpp/lib/librosidl_typesupport_fastrtps_cpp.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/fastrtps/lib/libfastrtps.so.2.3.4
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/fastcdr/lib/libfastcdr.so.1.0.20
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/rcutils/lib/librcutils.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /home/pi/ros2_galactic/install/foonathan_memory_vendor/lib/libfoonathan_memory-0.6.2.a
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/arm-linux-gnueabihf/libtinyxml2.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/arm-linux-gnueabihf/libtinyxml2.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/arm-linux-gnueabihf/libssl.so
-librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/arm-linux-gnueabihf/libcrypto.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/librmw.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/librosidl_typesupport_fastrtps_cpp.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/libfastrtps.so.2.3.4
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/libfastcdr.so.1.0.20
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/librcutils.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/galactic/lib/libfoonathan_memory-0.6.2.a
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libssl.so
+librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -120,6 +120,6 @@ CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean:
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend
 

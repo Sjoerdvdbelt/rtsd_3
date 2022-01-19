@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rtsd_interfaces\" -Drtsd_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_generator_cpp -isystem /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/include -isystem /home/pi/ros2_galactic/install/rosidl_runtime_c/include -isystem /home/pi/ros2_galactic/install/rosidl_typesupport_interface/include -isystem /home/pi/ros2_galactic/install/rcutils/include -isystem /home/pi/ros2_galactic/install/rosidl_runtime_cpp/include -isystem /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_c/include 
+CXX_INCLUDES = -I/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include 
 

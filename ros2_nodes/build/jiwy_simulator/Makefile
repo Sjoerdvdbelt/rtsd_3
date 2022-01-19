@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/jiwy_simulator
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/jiwy_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,6 +67,18 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -112,18 +124,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,32 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named jiwy_simulator_uninstall
-
-# Build rule for target.
-jiwy_simulator_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 jiwy_simulator_uninstall
-.PHONY : jiwy_simulator_uninstall
-
-# fast build rule for target.
-jiwy_simulator_uninstall/fast:
-	$(MAKE) -f CMakeFiles/jiwy_simulator_uninstall.dir/build.make CMakeFiles/jiwy_simulator_uninstall.dir/build
-.PHONY : jiwy_simulator_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
 # Target rules for targets named setpoint_simulator
 
 # Build rule for target.
@@ -218,6 +192,32 @@ jiwy_simulator: cmake_check_build_system
 jiwy_simulator/fast:
 	$(MAKE) -f CMakeFiles/jiwy_simulator.dir/build.make CMakeFiles/jiwy_simulator.dir/build
 .PHONY : jiwy_simulator/fast
+
+#=============================================================================
+# Target rules for targets named jiwy_simulator_uninstall
+
+# Build rule for target.
+jiwy_simulator_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 jiwy_simulator_uninstall
+.PHONY : jiwy_simulator_uninstall
+
+# fast build rule for target.
+jiwy_simulator_uninstall/fast:
+	$(MAKE) -f CMakeFiles/jiwy_simulator_uninstall.dir/build.make CMakeFiles/jiwy_simulator_uninstall.dir/build
+.PHONY : jiwy_simulator_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
 
 src/jiwy_simulator.o: src/jiwy_simulator.cpp.o
 
@@ -280,16 +280,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... jiwy_simulator_uninstall"
-	@echo "... uninstall"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... setpoint_simulator"
 	@echo "... jiwy_simulator"
-	@echo "... edit_cache"
-	@echo "... install/local"
-	@echo "... test"
+	@echo "... jiwy_simulator_uninstall"
+	@echo "... uninstall"
 	@echo "... src/jiwy_simulator.o"
 	@echo "... src/jiwy_simulator.i"
 	@echo "... src/jiwy_simulator.s"

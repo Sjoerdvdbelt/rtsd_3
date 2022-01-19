@@ -1,8 +1,8 @@
-# Install script for directory: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/jiwy_simulator
+# Install script for directory: /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/jiwy_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/jiwy_simulator")
+  set(CMAKE_INSTALL_PREFIX "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/jiwy_simulator"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator" TYPE EXECUTABLE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/jiwy_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator" TYPE EXECUTABLE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/jiwy_simulator")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/jiwy_simulator" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/jiwy_simulator")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/jiwy_simulator"
-         OLD_RPATH "/home/pi/ros2_galactic/install/rclcpp/lib:/home/pi/ros2_galactic/install/sensor_msgs/lib:/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/home/pi/ros2_galactic/install/ament_index_cpp/lib:/home/pi/ros2_galactic/install/libstatistics_collector/lib:/home/pi/ros2_galactic/install/rcl/lib:/home/pi/ros2_galactic/install/rcl_interfaces/lib:/home/pi/ros2_galactic/install/rmw_implementation/lib:/home/pi/ros2_galactic/install/rcl_logging_spdlog/lib:/home/pi/ros2_galactic/install/rcl_logging_interface/lib:/home/pi/ros2_galactic/install/rcl_yaml_param_parser/lib:/home/pi/ros2_galactic/install/rmw/lib:/home/pi/ros2_galactic/install/libyaml_vendor/lib:/home/pi/ros2_galactic/install/rosgraph_msgs/lib:/home/pi/ros2_galactic/install/statistics_msgs/lib:/home/pi/ros2_galactic/install/tracetools/lib:/home/pi/ros2_galactic/install/geometry_msgs/lib:/home/pi/ros2_galactic/install/std_msgs/lib:/home/pi/ros2_galactic/install/builtin_interfaces/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_introspection_c/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_cpp/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_c/lib:/home/pi/ros2_galactic/install/rcpputils/lib:/home/pi/ros2_galactic/install/rosidl_runtime_c/lib:/home/pi/ros2_galactic/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/galactic/lib:/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/jiwy_simulator")
@@ -64,12 +64,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/setpoint_simulator"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator" TYPE EXECUTABLE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/setpoint_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator" TYPE EXECUTABLE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/setpoint_simulator")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/setpoint_simulator" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/setpoint_simulator")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/setpoint_simulator"
-         OLD_RPATH "/home/pi/ros2_galactic/install/rclcpp/lib:/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/home/pi/ros2_galactic/install/ament_index_cpp/lib:/home/pi/ros2_galactic/install/libstatistics_collector/lib:/home/pi/ros2_galactic/install/std_msgs/lib:/home/pi/ros2_galactic/install/rcl/lib:/home/pi/ros2_galactic/install/rcl_interfaces/lib:/home/pi/ros2_galactic/install/rmw_implementation/lib:/home/pi/ros2_galactic/install/rcl_logging_spdlog/lib:/home/pi/ros2_galactic/install/rcl_logging_interface/lib:/home/pi/ros2_galactic/install/rcl_yaml_param_parser/lib:/home/pi/ros2_galactic/install/rmw/lib:/home/pi/ros2_galactic/install/libyaml_vendor/lib:/home/pi/ros2_galactic/install/rosgraph_msgs/lib:/home/pi/ros2_galactic/install/statistics_msgs/lib:/home/pi/ros2_galactic/install/builtin_interfaces/lib:/home/pi/ros2_galactic/install/tracetools/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_introspection_c/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_cpp/lib:/home/pi/ros2_galactic/install/rosidl_typesupport_c/lib:/home/pi/ros2_galactic/install/rcpputils/lib:/home/pi/ros2_galactic/install/rosidl_runtime_c/lib:/home/pi/ros2_galactic/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/galactic/lib:/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jiwy_simulator/setpoint_simulator")
@@ -78,62 +78,62 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/jiwy_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/jiwy_simulator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/jiwy_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/jiwy_simulator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/pi/ros2_galactic/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/pi/ros2_galactic/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/environment" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/packages/jiwy_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_index/share/ament_index/resource_index/packages/jiwy_simulator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator/cmake" TYPE FILE FILES
-    "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_core/jiwy_simulatorConfig.cmake"
-    "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_core/jiwy_simulatorConfig-version.cmake"
+    "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_core/jiwy_simulatorConfig.cmake"
+    "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/ament_cmake_core/jiwy_simulatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/jiwy_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jiwy_simulator" TYPE FILE FILES "/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/jiwy_simulator/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -144,5 +144,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/jiwy_simulator/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

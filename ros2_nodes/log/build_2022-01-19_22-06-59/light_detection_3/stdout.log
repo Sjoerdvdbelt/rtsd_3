@@ -1,0 +1,25 @@
+[ 50%] Built target motor_test
+[35m[1mScanning dependencies of target bright_position[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bright_position.dir/src/bright_position.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bright_position[0m
+[100%] Built target bright_position
+-- Install configuration: ""
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/bright_position
+-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/bright_position" to ""
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/motor_test
+-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/motor_test" to ""
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/package_run_dependencies/light_detection_3
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/parent_prefix_path/light_detection_3
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/ament_prefix_path.sh
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/ament_prefix_path.dsv
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/path.sh
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/path.dsv
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.bash
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.sh
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.zsh
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.dsv
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/package.dsv
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/packages/light_detection_3
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/cmake/light_detection_3Config.cmake
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/cmake/light_detection_3Config-version.cmake
+-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/package.xml

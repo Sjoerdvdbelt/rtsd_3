@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/light_detection_3
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3
 
 # Utility rule file for light_detection_3_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/l
 include CMakeFiles/light_detection_3_uninstall.dir/progress.make
 
 CMakeFiles/light_detection_3_uninstall:
-	/usr/bin/cmake -P /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 light_detection_3_uninstall: CMakeFiles/light_detection_3_uninstall
 light_detection_3_uninstall: CMakeFiles/light_detection_3_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/light_detection_3_uninstall.dir/clean:
 .PHONY : CMakeFiles/light_detection_3_uninstall.dir/clean
 
 CMakeFiles/light_detection_3_uninstall.dir/depend:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/light_detection_3 /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/light_detection_3 /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3 /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3 /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/light_detection_3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3 /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3 /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/light_detection_3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/light_detection_3_uninstall.dir/depend
 

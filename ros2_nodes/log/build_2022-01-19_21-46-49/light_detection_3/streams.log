@@ -1,0 +1,50 @@
+[0.063s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3 -DCMAKE_INSTALL_PREFIX=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3
+[0.362s] -- The C compiler identification is GNU 9.3.0
+[0.654s] -- The CXX compiler identification is GNU 9.3.0
+[0.679s] -- Check for working C compiler: /usr/bin/cc
+[1.029s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.034s] -- Detecting C compiler ABI info
+[1.400s] -- Detecting C compiler ABI info - done
+[1.462s] -- Detecting C compile features
+[1.463s] -- Detecting C compile features - done
+[1.473s] -- Check for working CXX compiler: /usr/bin/c++
+[1.786s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.789s] -- Detecting CXX compiler ABI info
+[2.116s] -- Detecting CXX compiler ABI info - done
+[2.188s] -- Detecting CXX compile features
+[2.190s] -- Detecting CXX compile features - done
+[2.202s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.294s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.686s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.971s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.321s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.457s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.086s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.097s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.194s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.200s] -- Looking for pthread.h
+[4.475s] -- Looking for pthread.h - found
+[4.478s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.781s] -- Looking for pthread_create in pthreads
+[5.118s] -- Looking for pthread_create in pthreads - not found
+[5.122s] -- Looking for pthread_create in pthread
+[5.545s] -- Looking for pthread_create in pthread - found
+[5.554s] -- Found Threads: TRUE  
+[6.724s] -- Found sensor_msgs: 2.2.3 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[7.635s] -- Found rtsd_interfaces: 0.0.0 (/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake)
+[7.776s] -- Found OpenCV: /usr (found version "4.2.0") 
+[7.777s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[7.778s]   ament_target_dependencies() the passed package name 'motor_test' was not
+[7.781s]   found before
+[7.781s] Call Stack (most recent call first):
+[7.781s]   CMakeLists.txt:18 (ament_target_dependencies)
+[7.782s] 
+[7.782s] 
+[7.790s] -- Configuring incomplete, errors occurred!
+[7.790s] See also "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/CMakeOutput.log".
+[7.791s] See also "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/CMakeError.log".
+[7.830s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3' returned '1': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3 -DCMAKE_INSTALL_PREFIX=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3

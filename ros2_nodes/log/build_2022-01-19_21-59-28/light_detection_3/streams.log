@@ -1,0 +1,17 @@
+[0.085s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1
+[0.350s] [35m[1mScanning dependencies of target motor_test[0m
+[0.477s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_test.dir/src/motor_test.cpp.o[0m
+[8.918s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:[m[K In constructor ‘[01m[KMotorTest::MotorTest()[m[K’:
+[8.918s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[KBrightPosition[m[K’ has not been declared
+[8.919s]    18 |       "position", 1, std::bind(&[01;31m[KBrightPosition[m[K::position_callback, this, _1));
+[8.919s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.919s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:20:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[8.920s]    20 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+[8.920s]       |       [01;31m[K^~~~~[m[K
+[8.921s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+[8.921s]    20 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+[8.921s]       |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.026s] make[2]: *** [CMakeFiles/motor_test.dir/build.make:63: CMakeFiles/motor_test.dir/src/motor_test.cpp.o] Error 1
+[12.029s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/motor_test.dir/all] Error 2
+[12.030s] make: *** [Makefile:141: all] Error 2
+[12.041s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3' returned '2': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1

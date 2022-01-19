@@ -1,0 +1,113 @@
+[0.110s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces -- -j1 -l1
+[0.544s] [  3%] Built target rtsd_interfaces__cpp
+[0.663s] [ 12%] Built target rtsd_interfaces__rosidl_typesupport_cpp
+[0.754s] [ 22%] Built target rtsd_interfaces__rosidl_generator_c
+[0.831s] [ 32%] Built target rtsd_interfaces__rosidl_typesupport_c
+[0.912s] [ 41%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.055s] [ 51%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c
+[1.165s] [ 61%] Built target rtsd_interfaces__rosidl_typesupport_introspection_cpp
+[1.209s] [ 70%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c
+[1.276s] [ 70%] Built target rtsd_interfaces
+[1.387s] [ 74%] Built target rtsd_interfaces__py
+[1.532s] [ 80%] Built target rtsd_interfaces__python
+[1.651s] [ 87%] Built target rtsd_interfaces__rosidl_typesupport_c__pyext
+[1.811s] [ 93%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.024s] [100%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.073s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces -- -j1 -l1
+[2.223s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces
+[2.245s] -- Install configuration: ""
+[2.246s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/rosidl_interfaces/rtsd_interfaces
+[2.247s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.247s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.248s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.248s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.h
+[2.249s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.249s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.h
+[2.250s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.h
+[2.250s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.c
+[2.251s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.h
+[2.252s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.sh
+[2.253s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.dsv
+[2.254s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_generator_c.so
+[2.255s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.256s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.256s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.256s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.257s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_c.h
+[2.258s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.332s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.333s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.333s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.335s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.340s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/dds_fastrtps
+[2.340s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.340s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.340s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.340s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_c.h
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.c
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_c.so
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_c.so
+[2.341s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.hpp
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__builder.hpp
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.hpp
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__traits.hpp
+[2.342s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+[2.373s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+[2.373s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+[2.373s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.cpp
+[2.374s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp
+[2.374s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.374s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_cpp.so
+[2.374s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.sh
+[2.379s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.dsv
+[2.379s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/__init__.py
+[2.556s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg
+[2.562s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/_point2.py
+[2.564s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/__init__.py
+[2.564s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/_point2_s.c
+[2.570s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.573s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.575s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.584s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__python.so
+[2.587s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.idl
+[2.588s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.msg
+[2.590s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/package_run_dependencies/rtsd_interfaces
+[2.590s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/parent_prefix_path/rtsd_interfaces
+[2.593s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.sh
+[2.594s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.dsv
+[2.594s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.sh
+[2.595s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.dsv
+[2.601s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.bash
+[2.604s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.sh
+[2.604s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.zsh
+[2.608s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.dsv
+[2.608s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.dsv
+[2.609s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/packages/rtsd_interfaces
+[2.612s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport.cmake
+[2.619s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.622s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.623s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.625s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport.cmake
+[2.627s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.641s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cppExport.cmake
+[2.653s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.654s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.656s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport.cmake
+[2.660s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.675s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.692s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.693s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.719s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.719s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.724s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.728s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.736s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig.cmake
+[2.744s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig-version.cmake
+[2.748s] -- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.xml
+[2.790s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces

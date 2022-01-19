@@ -1,6 +1,7 @@
 #include "multiCommClass.h"
 #include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 
 IDDPComm::IDDPComm(int ownPort, int destPort, int _size, int _parameters[])
 {
@@ -32,6 +33,13 @@ XDDPComm::~XDDPComm()
     xenoCommClass->~xenoCommunication();
 }
 
+
+frameworkComm::frameworkComm():
+    readConvertFcn(nullptr),
+    writeConvertFcn(nullptr)
+{
+}
+
 void frameworkComm::setVerbose(bool _verbose)
 {
     verbose = _verbose;
@@ -41,13 +49,29 @@ void frameworkComm::setVerbose(bool _verbose)
 int frameworkComm::send(double value[])
 {
     //printf("send function of IDDP\n");
-    double toSend[sendSize];
+    double toSend[sendSize]={0};
+    double toSendConverted[sendSize];
     int ret;
     for (int i = 0; i < sendSize; i++)
     {
         if (sendParameters[i]!=-1)
             toSend[i] = value[sendParameters[i]];
         //printf("value on %d is: %f\n", sendParameters[i], value[sendParameters[i]]);
+    }
+    if (writeConvertFcn != nullptr)
+    {
+        writeConvertFcn(toSend, toSendConverted);
+    } else
+    {
+        memcpy(toSendConverted, toSend, sizeof(toSendConverted));
+    }
+    if (verbose)
+    {
+        printf("Send - Original and Converted values of output array:\n");
+        for (int i = 0; i < sendSize; i++)
+        {
+            printf("%11f -> %11f\n", toSend[i], toSendConverted[i]);
+        }
     }
     ret = xenoCommClass->sendDoubleArray(toSend, destinationPort, sendSize);
     return ret;
@@ -56,8 +80,28 @@ int frameworkComm::send(double value[])
 int frameworkComm::receive(double value[])
 {
     double received[receiveSize];
+    double receivedConverted[receiveSize];
     int ret;
     ret = xenoCommClass->receiveDoubleArray(received, receiveSize);
+
+    if (readConvertFcn != nullptr)
+    {
+        readConvertFcn(received, receivedConverted);
+    } else
+    {
+        memcpy(receivedConverted, received, sizeof(receivedConverted));
+    }
+
+    if (verbose)
+    {
+        printf("Receive - Original and Converted values of input array:\n");
+        for (int i = 0; i < sendSize; i++)
+        {
+            printf("%11f -> %11f\n", received[i], receivedConverted[i]);
+        }
+    }
+    
+
     if (ret > 0)
     {
         for (int i = 0; i < receiveSize; i++)
@@ -68,3 +112,14 @@ int frameworkComm::receive(double value[])
     }
     return ret;
 }
+
+void frameworkComm::setReadConvertFcn(ReadWriteConversionFcn *f)
+{
+    readConvertFcn = f; 
+}
+
+void frameworkComm::setWriteConvertFcn(ReadWriteConversionFcn *f)
+{
+    writeConvertFcn = f;
+}
+

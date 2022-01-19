@@ -44,15 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/light_detection_3
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/motor_test.dir/all
 all: CMakeFiles/bright_position.dir/all
 
 .PHONY : all
@@ -63,11 +64,66 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/motor_test.dir/clean
+clean: CMakeFiles/bright_position.dir/clean
 clean: CMakeFiles/light_detection_3_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
-clean: CMakeFiles/bright_position.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/motor_test.dir
+
+# All Build rule for target.
+CMakeFiles/motor_test.dir/all:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/depend
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num=3,4 "Built target motor_test"
+.PHONY : CMakeFiles/motor_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/motor_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/motor_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+.PHONY : CMakeFiles/motor_test.dir/rule
+
+# Convenience name for target.
+motor_test: CMakeFiles/motor_test.dir/rule
+
+.PHONY : motor_test
+
+# clean rule for target.
+CMakeFiles/motor_test.dir/clean:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/clean
+.PHONY : CMakeFiles/motor_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bright_position.dir
+
+# All Build rule for target.
+CMakeFiles/bright_position.dir/all:
+	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/depend
+	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num=1,2 "Built target bright_position"
+.PHONY : CMakeFiles/bright_position.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bright_position.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bright_position.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+.PHONY : CMakeFiles/bright_position.dir/rule
+
+# Convenience name for target.
+bright_position: CMakeFiles/bright_position.dir/rule
+
+.PHONY : bright_position
+
+# clean rule for target.
+CMakeFiles/bright_position.dir/clean:
+	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/clean
+.PHONY : CMakeFiles/bright_position.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/light_detection_3_uninstall.dir
@@ -76,14 +132,14 @@ clean: CMakeFiles/bright_position.dir/clean
 CMakeFiles/light_detection_3_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/light_detection_3_uninstall.dir/build.make CMakeFiles/light_detection_3_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/light_detection_3_uninstall.dir/build.make CMakeFiles/light_detection_3_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num= "Built target light_detection_3_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num= "Built target light_detection_3_uninstall"
 .PHONY : CMakeFiles/light_detection_3_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/light_detection_3_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/light_detection_3_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
 .PHONY : CMakeFiles/light_detection_3_uninstall.dir/rule
 
 # Convenience name for target.
@@ -103,14 +159,14 @@ CMakeFiles/light_detection_3_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/light_detection_3_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -122,33 +178,6 @@ uninstall: CMakeFiles/uninstall.dir/rule
 CMakeFiles/uninstall.dir/clean:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
 .PHONY : CMakeFiles/uninstall.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/bright_position.dir
-
-# All Build rule for target.
-CMakeFiles/bright_position.dir/all:
-	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/depend
-	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles --progress-num=1,2 "Built target bright_position"
-.PHONY : CMakeFiles/bright_position.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/bright_position.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bright_position.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
-.PHONY : CMakeFiles/bright_position.dir/rule
-
-# Convenience name for target.
-bright_position: CMakeFiles/bright_position.dir/rule
-
-.PHONY : bright_position
-
-# clean rule for target.
-CMakeFiles/bright_position.dir/clean:
-	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/clean
-.PHONY : CMakeFiles/bright_position.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

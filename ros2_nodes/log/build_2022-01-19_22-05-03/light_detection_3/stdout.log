@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target motor_test[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/motor_test.dir/src/motor_test.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable motor_test[0m
+[ 50%] Built target motor_test
+[35m[1mScanning dependencies of target bright_position[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bright_position.dir/src/bright_position.cpp.o[0m

@@ -13,15 +13,17 @@ find_package(rtsd_interfaces REQUIRED)
 find_package(OpenCV REQUIRED)
 
 add_executable(bright_position src/bright_position.cpp)
+add_executable(motor_test src/motor_test.cpp)
 
 ament_target_dependencies(bright_position rclcpp rtsd_interfaces OpenCV sensor_msgs)
+ament_target_dependencies(motor_test rclcpp rtsd_interfaces)
 
 target_include_directories(bright_position PUBLIC
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 $<INSTALL_INTERFACE:include>)
 target_compile_features(bright_position PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-install(TARGETS bright_position
+install(TARGETS bright_position motor_test
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

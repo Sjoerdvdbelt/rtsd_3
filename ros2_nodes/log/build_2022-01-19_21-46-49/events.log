@@ -1,0 +1,1267 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (rtsd_interfaces) JobQueued: {'identifier': 'rtsd_interfaces', 'dependencies': OrderedDict()}
+[0.000373] (jiwy_simulator) JobQueued: {'identifier': 'jiwy_simulator', 'dependencies': OrderedDict([('rtsd_interfaces', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces')])}
+[0.000443] (light_detection_3) JobQueued: {'identifier': 'light_detection_3', 'dependencies': OrderedDict([('rtsd_interfaces', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces')])}
+[0.000508] (rtsd_interfaces) JobStarted: {'identifier': 'rtsd_interfaces'}
+[0.038505] (rtsd_interfaces) JobProgress: {'identifier': 'rtsd_interfaces', 'progress': 'cmake'}
+[0.039212] (rtsd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.088789] (-) TimerEvent: {}
+[0.191497] (-) TimerEvent: {}
+[0.291969] (-) TimerEvent: {}
+[0.415310] (-) TimerEvent: {}
+[0.426915] (rtsd_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.515452] (-) TimerEvent: {}
+[0.644680] (-) TimerEvent: {}
+[0.749782] (-) TimerEvent: {}
+[0.817779] (rtsd_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.849124] (rtsd_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.849889] (-) TimerEvent: {}
+[0.954235] (-) TimerEvent: {}
+[1.056165] (-) TimerEvent: {}
+[1.127376] (rtsd_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.131364] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.156988] (-) TimerEvent: {}
+[1.263365] (-) TimerEvent: {}
+[1.365017] (-) TimerEvent: {}
+[1.388264] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.465309] (-) TimerEvent: {}
+[1.497064] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.503252] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.520218] (rtsd_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.565437] (-) TimerEvent: {}
+[1.666051] (-) TimerEvent: {}
+[1.767979] (-) TimerEvent: {}
+[1.872428] (-) TimerEvent: {}
+[1.874595] (rtsd_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.886964] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.979835] (-) TimerEvent: {}
+[2.081323] (-) TimerEvent: {}
+[2.183167] (-) TimerEvent: {}
+[2.196910] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.255341] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.258773] (rtsd_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.280197] (rtsd_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[2.283313] (-) TimerEvent: {}
+[2.382077] (rtsd_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.382736] (rtsd_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.383455] (-) TimerEvent: {}
+[2.488853] (-) TimerEvent: {}
+[2.591446] (-) TimerEvent: {}
+[2.695679] (-) TimerEvent: {}
+[2.751738] (rtsd_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.764799] (rtsd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.795401] (rtsd_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.795788] (-) TimerEvent: {}
+[2.896588] (-) TimerEvent: {}
+[2.997782] (-) TimerEvent: {}
+[3.098869] (-) TimerEvent: {}
+[3.174852] (rtsd_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.199375] (-) TimerEvent: {}
+[3.299019] (rtsd_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[3.299794] (-) TimerEvent: {}
+[3.403290] (-) TimerEvent: {}
+[3.507155] (-) TimerEvent: {}
+[3.607724] (-) TimerEvent: {}
+[3.709218] (-) TimerEvent: {}
+[3.738403] (rtsd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.809369] (-) TimerEvent: {}
+[3.947172] (-) TimerEvent: {}
+[4.054774] (-) TimerEvent: {}
+[4.131247] (rtsd_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.159704] (-) TimerEvent: {}
+[4.263192] (-) TimerEvent: {}
+[4.364216] (-) TimerEvent: {}
+[4.472540] (-) TimerEvent: {}
+[4.576935] (-) TimerEvent: {}
+[4.677817] (-) TimerEvent: {}
+[4.716469] (rtsd_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[4.782000] (-) TimerEvent: {}
+[4.887390] (-) TimerEvent: {}
+[4.998212] (-) TimerEvent: {}
+[5.104034] (-) TimerEvent: {}
+[5.142445] (rtsd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.179229] (rtsd_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.215185] (-) TimerEvent: {}
+[5.320849] (-) TimerEvent: {}
+[5.336047] (rtsd_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.351110] (rtsd_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[5.423086] (-) TimerEvent: {}
+[5.440783] (rtsd_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.442357] (rtsd_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.442860] (rtsd_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.443679] (rtsd_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[5.488566] (rtsd_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.532160] (-) TimerEvent: {}
+[5.611416] (rtsd_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[5.632309] (-) TimerEvent: {}
+[5.703104] (rtsd_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.715542] (rtsd_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.717708] (rtsd_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.732505] (-) TimerEvent: {}
+[5.745227] (rtsd_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.832648] (-) TimerEvent: {}
+[5.933250] (-) TimerEvent: {}
+[5.948561] (rtsd_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.981617] (rtsd_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces\n'}
+[6.040976] (rtsd_interfaces) CommandEnded: {'returncode': 0}
+[6.042958] (-) TimerEvent: {}
+[6.050766] (rtsd_interfaces) JobProgress: {'identifier': 'rtsd_interfaces', 'progress': 'build'}
+[6.050847] (rtsd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[6.143089] (-) TimerEvent: {}
+[6.236962] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__cpp\x1b[0m\n'}
+[6.243834] (-) TimerEvent: {}
+[6.296085] (rtsd_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.344050] (-) TimerEvent: {}
+[6.445382] (-) TimerEvent: {}
+[6.545996] (-) TimerEvent: {}
+[6.646643] (-) TimerEvent: {}
+[6.749324] (-) TimerEvent: {}
+[6.855630] (-) TimerEvent: {}
+[6.963151] (-) TimerEvent: {}
+[7.063756] (-) TimerEvent: {}
+[7.171175] (-) TimerEvent: {}
+[7.275229] (-) TimerEvent: {}
+[7.382315] (-) TimerEvent: {}
+[7.484153] (-) TimerEvent: {}
+[7.590449] (-) TimerEvent: {}
+[7.695589] (-) TimerEvent: {}
+[7.806092] (-) TimerEvent: {}
+[7.823965] (rtsd_interfaces) StdoutLine: {'line': b'[  3%] Built target rtsd_interfaces__cpp\n'}
+[7.859430] (rtsd_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.906486] (-) TimerEvent: {}
+[8.009329] (-) TimerEvent: {}
+[8.114677] (-) TimerEvent: {}
+[8.231186] (-) TimerEvent: {}
+[8.333423] (-) TimerEvent: {}
+[8.439932] (-) TimerEvent: {}
+[8.550449] (-) TimerEvent: {}
+[8.651851] (-) TimerEvent: {}
+[8.755240] (-) TimerEvent: {}
+[8.863216] (-) TimerEvent: {}
+[8.972700] (-) TimerEvent: {}
+[9.075924] (-) TimerEvent: {}
+[9.179727] (-) TimerEvent: {}
+[9.235408] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.283670] (-) TimerEvent: {}
+[9.295501] (rtsd_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtsd_interfaces/msg/point2__type_support.cpp.o\x1b[0m\n'}
+[9.383834] (-) TimerEvent: {}
+[9.487173] (-) TimerEvent: {}
+[9.588623] (-) TimerEvent: {}
+[9.695189] (-) TimerEvent: {}
+[9.806193] (-) TimerEvent: {}
+[9.911254] (-) TimerEvent: {}
+[10.012677] (-) TimerEvent: {}
+[10.115277] (-) TimerEvent: {}
+[10.219291] (-) TimerEvent: {}
+[10.327991] (-) TimerEvent: {}
+[10.441824] (-) TimerEvent: {}
+[10.551169] (-) TimerEvent: {}
+[10.652058] (-) TimerEvent: {}
+[10.746704] (rtsd_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.754296] (-) TimerEvent: {}
+[10.855474] (-) TimerEvent: {}
+[10.937169] (rtsd_interfaces) StdoutLine: {'line': b'[ 12%] Built target rtsd_interfaces__rosidl_typesupport_cpp\n'}
+[10.961872] (-) TimerEvent: {}
+[10.967823] (rtsd_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.062062] (-) TimerEvent: {}
+[11.171671] (-) TimerEvent: {}
+[11.280667] (-) TimerEvent: {}
+[11.395709] (-) TimerEvent: {}
+[11.496569] (-) TimerEvent: {}
+[11.608595] (-) TimerEvent: {}
+[11.711926] (-) TimerEvent: {}
+[11.823246] (-) TimerEvent: {}
+[11.924018] (-) TimerEvent: {}
+[12.031987] (-) TimerEvent: {}
+[12.139362] (-) TimerEvent: {}
+[12.246258] (-) TimerEvent: {}
+[12.296594] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_generator_c\x1b[0m\n'}
+[12.346454] (-) TimerEvent: {}
+[12.355392] (rtsd_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rtsd_interfaces/msg/detail/point2__functions.c.o\x1b[0m\n'}
+[12.446684] (-) TimerEvent: {}
+[12.551093] (-) TimerEvent: {}
+[12.595764] (rtsd_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librtsd_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[12.654344] (-) TimerEvent: {}
+[12.756341] (-) TimerEvent: {}
+[12.821180] (rtsd_interfaces) StdoutLine: {'line': b'[ 22%] Built target rtsd_interfaces__rosidl_generator_c\n'}
+[12.862790] (-) TimerEvent: {}
+[12.871929] (rtsd_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.971479] (-) TimerEvent: {}
+[13.075902] (-) TimerEvent: {}
+[13.179288] (-) TimerEvent: {}
+[13.291485] (-) TimerEvent: {}
+[13.393961] (-) TimerEvent: {}
+[13.505527] (-) TimerEvent: {}
+[13.607231] (-) TimerEvent: {}
+[13.712202] (-) TimerEvent: {}
+[13.815201] (-) TimerEvent: {}
+[13.920065] (-) TimerEvent: {}
+[14.027038] (-) TimerEvent: {}
+[14.131279] (-) TimerEvent: {}
+[14.171547] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[14.224197] (rtsd_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp.o\x1b[0m\n'}
+[14.231446] (-) TimerEvent: {}
+[14.332780] (-) TimerEvent: {}
+[14.378195] (rtsd_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.434654] (-) TimerEvent: {}
+[14.535875] (-) TimerEvent: {}
+[14.568307] (rtsd_interfaces) StdoutLine: {'line': b'[ 32%] Built target rtsd_interfaces__rosidl_typesupport_c\n'}
+[14.616613] (rtsd_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.648944] (-) TimerEvent: {}
+[14.749634] (-) TimerEvent: {}
+[14.851097] (-) TimerEvent: {}
+[14.952604] (-) TimerEvent: {}
+[15.053443] (-) TimerEvent: {}
+[15.159479] (-) TimerEvent: {}
+[15.264029] (-) TimerEvent: {}
+[15.365478] (-) TimerEvent: {}
+[15.466128] (-) TimerEvent: {}
+[15.572296] (-) TimerEvent: {}
+[15.673099] (-) TimerEvent: {}
+[15.791160] (-) TimerEvent: {}
+[15.895301] (-) TimerEvent: {}
+[15.979581] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.995988] (-) TimerEvent: {}
+[16.087512] (rtsd_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o\x1b[0m\n'}
+[16.096288] (-) TimerEvent: {}
+[16.198411] (-) TimerEvent: {}
+[16.303222] (-) TimerEvent: {}
+[16.404468] (-) TimerEvent: {}
+[16.507046] (-) TimerEvent: {}
+[16.611415] (-) TimerEvent: {}
+[16.711900] (-) TimerEvent: {}
+[16.815428] (-) TimerEvent: {}
+[16.915937] (-) TimerEvent: {}
+[17.019276] (-) TimerEvent: {}
+[17.120601] (-) TimerEvent: {}
+[17.231682] (-) TimerEvent: {}
+[17.335232] (-) TimerEvent: {}
+[17.436956] (-) TimerEvent: {}
+[17.539217] (-) TimerEvent: {}
+[17.639774] (-) TimerEvent: {}
+[17.740907] (-) TimerEvent: {}
+[17.792815] (rtsd_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.841079] (-) TimerEvent: {}
+[17.946606] (-) TimerEvent: {}
+[18.047160] (-) TimerEvent: {}
+[18.149293] (-) TimerEvent: {}
+[18.172209] (rtsd_interfaces) StdoutLine: {'line': b'[ 41%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.215713] (rtsd_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.254089] (-) TimerEvent: {}
+[18.359209] (-) TimerEvent: {}
+[18.463167] (-) TimerEvent: {}
+[18.571134] (-) TimerEvent: {}
+[18.675229] (-) TimerEvent: {}
+[18.776647] (-) TimerEvent: {}
+[18.883042] (-) TimerEvent: {}
+[18.987120] (-) TimerEvent: {}
+[19.104680] (-) TimerEvent: {}
+[19.211269] (-) TimerEvent: {}
+[19.314017] (-) TimerEvent: {}
+[19.419820] (-) TimerEvent: {}
+[19.443309] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[19.527245] (-) TimerEvent: {}
+[19.527745] (rtsd_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtsd_interfaces/msg/detail/point2__type_support_c.cpp.o\x1b[0m\n'}
+[19.627672] (-) TimerEvent: {}
+[19.728278] (-) TimerEvent: {}
+[19.831717] (-) TimerEvent: {}
+[19.932423] (-) TimerEvent: {}
+[20.039544] (-) TimerEvent: {}
+[20.140148] (-) TimerEvent: {}
+[20.243537] (-) TimerEvent: {}
+[20.351190] (-) TimerEvent: {}
+[20.463163] (-) TimerEvent: {}
+[20.566703] (-) TimerEvent: {}
+[20.668154] (-) TimerEvent: {}
+[20.771333] (-) TimerEvent: {}
+[20.872074] (-) TimerEvent: {}
+[20.972647] (-) TimerEvent: {}
+[21.080775] (-) TimerEvent: {}
+[21.190759] (-) TimerEvent: {}
+[21.239521] (rtsd_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.299535] (-) TimerEvent: {}
+[21.407273] (-) TimerEvent: {}
+[21.515355] (-) TimerEvent: {}
+[21.635283] (-) TimerEvent: {}
+[21.695890] (rtsd_interfaces) StdoutLine: {'line': b'[ 51%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[21.728822] (rtsd_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[21.743208] (-) TimerEvent: {}
+[21.847163] (-) TimerEvent: {}
+[21.948549] (-) TimerEvent: {}
+[22.052018] (-) TimerEvent: {}
+[22.159415] (-) TimerEvent: {}
+[22.267736] (-) TimerEvent: {}
+[22.373108] (-) TimerEvent: {}
+[22.474676] (-) TimerEvent: {}
+[22.587796] (-) TimerEvent: {}
+[22.696135] (-) TimerEvent: {}
+[22.803494] (-) TimerEvent: {}
+[22.911655] (-) TimerEvent: {}
+[23.015396] (-) TimerEvent: {}
+[23.021078] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[23.073422] (rtsd_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o\x1b[0m\n'}
+[23.121615] (-) TimerEvent: {}
+[23.229110] (-) TimerEvent: {}
+[23.330995] (-) TimerEvent: {}
+[23.432115] (-) TimerEvent: {}
+[23.532757] (-) TimerEvent: {}
+[23.633679] (-) TimerEvent: {}
+[23.725159] (rtsd_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.736156] (-) TimerEvent: {}
+[23.837766] (-) TimerEvent: {}
+[23.876116] (rtsd_interfaces) StdoutLine: {'line': b'[ 61%] Built target rtsd_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.902705] (rtsd_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.941753] (-) TimerEvent: {}
+[24.043064] (-) TimerEvent: {}
+[24.151674] (-) TimerEvent: {}
+[24.259705] (-) TimerEvent: {}
+[24.360679] (-) TimerEvent: {}
+[24.464771] (-) TimerEvent: {}
+[24.563836] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[24.565154] (-) TimerEvent: {}
+[24.609432] (rtsd_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtsd_interfaces/msg/detail/point2__type_support.c.o\x1b[0m\n'}
+[24.667616] (-) TimerEvent: {}
+[24.750049] (rtsd_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library librtsd_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.768183] (-) TimerEvent: {}
+[24.804329] (rtsd_interfaces) StdoutLine: {'line': b'[ 70%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c\n'}
+[24.823730] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces\x1b[0m\n'}
+[24.839988] (rtsd_interfaces) StdoutLine: {'line': b'[ 70%] Built target rtsd_interfaces\n'}
+[24.859085] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__py\x1b[0m\n'}
+[24.868633] (-) TimerEvent: {}
+[24.874857] (rtsd_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.975409] (-) TimerEvent: {}
+[25.083388] (-) TimerEvent: {}
+[25.184711] (-) TimerEvent: {}
+[25.285436] (-) TimerEvent: {}
+[25.387226] (-) TimerEvent: {}
+[25.489559] (-) TimerEvent: {}
+[25.590529] (-) TimerEvent: {}
+[25.691233] (-) TimerEvent: {}
+[25.791940] (-) TimerEvent: {}
+[25.892524] (-) TimerEvent: {}
+[25.993995] (-) TimerEvent: {}
+[26.105576] (-) TimerEvent: {}
+[26.206797] (-) TimerEvent: {}
+[26.314894] (-) TimerEvent: {}
+[26.423388] (-) TimerEvent: {}
+[26.524052] (-) TimerEvent: {}
+[26.630396] (-) TimerEvent: {}
+[26.679451] (rtsd_interfaces) StdoutLine: {'line': b'[ 74%] Built target rtsd_interfaces__py\n'}
+[26.719378] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__python\x1b[0m\n'}
+[26.735190] (-) TimerEvent: {}
+[26.803518] (rtsd_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__python.dir/rosidl_generator_py/rtsd_interfaces/msg/_point2_s.c.o\x1b[0m\n'}
+[26.838660] (-) TimerEvent: {}
+[26.939765] (-) TimerEvent: {}
+[27.040743] (-) TimerEvent: {}
+[27.147617] (-) TimerEvent: {}
+[27.224277] (rtsd_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/librtsd_interfaces__python.so\x1b[0m\n'}
+[27.255966] (-) TimerEvent: {}
+[27.363678] (-) TimerEvent: {}
+[27.385329] (rtsd_interfaces) StdoutLine: {'line': b'[ 80%] Built target rtsd_interfaces__python\n'}
+[27.422091] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[27.463899] (-) TimerEvent: {}
+[27.485713] (rtsd_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.566240] (-) TimerEvent: {}
+[27.672335] (-) TimerEvent: {}
+[27.772997] (-) TimerEvent: {}
+[27.845502] (rtsd_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.875681] (-) TimerEvent: {}
+[27.983487] (-) TimerEvent: {}
+[28.007493] (rtsd_interfaces) StdoutLine: {'line': b'[ 87%] Built target rtsd_interfaces__rosidl_typesupport_c__pyext\n'}
+[28.055335] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[28.088026] (-) TimerEvent: {}
+[28.138668] (rtsd_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.188965] (-) TimerEvent: {}
+[28.292424] (-) TimerEvent: {}
+[28.407253] (-) TimerEvent: {}
+[28.511262] (-) TimerEvent: {}
+[28.597494] (rtsd_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.615469] (-) TimerEvent: {}
+[28.717499] (-) TimerEvent: {}
+[28.774942] (rtsd_interfaces) StdoutLine: {'line': b'[ 93%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[28.806341] (rtsd_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[28.821118] (-) TimerEvent: {}
+[28.888205] (rtsd_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.928748] (-) TimerEvent: {}
+[29.030975] (-) TimerEvent: {}
+[29.131711] (-) TimerEvent: {}
+[29.233081] (-) TimerEvent: {}
+[29.307717] (rtsd_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.335756] (-) TimerEvent: {}
+[29.436246] (-) TimerEvent: {}
+[29.541648] (-) TimerEvent: {}
+[29.648051] (-) TimerEvent: {}
+[29.649079] (rtsd_interfaces) StdoutLine: {'line': b'[100%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.699781] (rtsd_interfaces) CommandEnded: {'returncode': 0}
+[29.755371] (-) TimerEvent: {}
+[29.859865] (-) TimerEvent: {}
+[29.960487] (rtsd_interfaces) JobProgress: {'identifier': 'rtsd_interfaces', 'progress': 'install'}
+[29.960598] (-) TimerEvent: {}
+[30.007699] (rtsd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[30.057066] (rtsd_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.063656] (-) TimerEvent: {}
+[30.071370] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/rosidl_interfaces/rtsd_interfaces\n'}
+[30.074923] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.076199] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.078393] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.079029] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.h\n'}
+[30.081308] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.081845] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.h\n'}
+[30.082253] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.h\n'}
+[30.082658] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.c\n'}
+[30.083299] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.h\n'}
+[30.085564] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.sh\n'}
+[30.086327] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.dsv\n'}
+[30.088714] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_generator_c.so\n'}
+[30.092194] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_generator_c.so" to ""\n'}
+[30.096711] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.097234] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.097557] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.100005] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.100614] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_c.h\n'}
+[30.101282] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[30.104431] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.105281] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.106905] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.107789] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.111764] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.112309] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/dds_fastrtps\n'}
+[30.112899] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.113653] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.115633] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.117534] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.118031] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.119458] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.119946] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_c.h\n'}
+[30.122118] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.c\n'}
+[30.122928] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.130861] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[30.140293] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.140963] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_c.so\n'}
+[30.144017] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[30.144623] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.147061] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.151768] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.hpp\n'}
+[30.152409] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.154265] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__builder.hpp\n'}
+[30.154962] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.hpp\n'}
+[30.155380] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__traits.hpp\n'}
+[30.159011] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces\n'}
+[30.163562] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg\n'}
+[30.163798] (-) TimerEvent: {}
+[30.171795] (rtsd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail\n'}
+[30.174979] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.cpp\n'}
+[30.175711] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.178170] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[30.189334] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.190093] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_cpp.so\n'}
+[30.194379] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[30.199539] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.sh\n'}
+[30.202294] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.dsv\n'}
+[30.209689] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/__init__.py\n'}
+[30.267768] (-) TimerEvent: {}
+[30.371753] (-) TimerEvent: {}
+[30.415286] (rtsd_interfaces) StdoutLine: {'line': b"Compiling '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/__init__.py'...\n"}
+[30.435292] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg\n'}
+[30.436000] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/_point2.py\n'}
+[30.436714] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/__init__.py\n'}
+[30.437342] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/msg/_point2_s.c\n'}
+[30.438184] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.442162] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.443074] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.448649] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.449390] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.450795] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.451853] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__python.so\n'}
+[30.455340] (rtsd_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__python.so" to ""\n'}
+[30.456036] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.idl\n'}
+[30.456618] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.msg\n'}
+[30.459401] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/package_run_dependencies/rtsd_interfaces\n'}
+[30.460188] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/parent_prefix_path/rtsd_interfaces\n'}
+[30.461521] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.sh\n'}
+[30.463291] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.dsv\n'}
+[30.467407] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.sh\n'}
+[30.468344] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.dsv\n'}
+[30.469095] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.bash\n'}
+[30.469771] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.sh\n'}
+[30.471454] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.zsh\n'}
+[30.471790] (-) TimerEvent: {}
+[30.483591] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.dsv\n'}
+[30.484748] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.dsv\n'}
+[30.486972] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/packages/rtsd_interfaces\n'}
+[30.491954] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport.cmake\n'}
+[30.492778] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.495805] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.496660] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.497297] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[30.501947] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.511415] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cppExport.cmake\n'}
+[30.512356] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.512937] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.513579] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[30.514018] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.514536] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[30.523362] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.524171] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.524834] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.525513] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.526169] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.526716] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.531534] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig.cmake\n'}
+[30.532189] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig-version.cmake\n'}
+[30.532753] (rtsd_interfaces) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.xml\n'}
+[30.560685] (rtsd_interfaces) CommandEnded: {'returncode': 0}
+[30.575306] (-) TimerEvent: {}
+[30.680250] (-) TimerEvent: {}
+[30.788506] (-) TimerEvent: {}
+[30.889156] (-) TimerEvent: {}
+[30.999352] (-) TimerEvent: {}
+[31.072467] (rtsd_interfaces) JobEnded: {'identifier': 'rtsd_interfaces', 'rc': 0}
+[31.073409] (jiwy_simulator) JobStarted: {'identifier': 'jiwy_simulator'}
+[31.112346] (-) TimerEvent: {}
+[31.180432] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'cmake'}
+[31.180792] (jiwy_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/jiwy_simulator', '-DCMAKE_INSTALL_PREFIX=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic')]), 'shell': False}
+[31.217941] (-) TimerEvent: {}
+[31.318470] (-) TimerEvent: {}
+[31.423903] (-) TimerEvent: {}
+[31.424304] (jiwy_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[31.536171] (-) TimerEvent: {}
+[31.639468] (-) TimerEvent: {}
+[31.721678] (jiwy_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[31.733244] (jiwy_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[31.743170] (-) TimerEvent: {}
+[31.857259] (-) TimerEvent: {}
+[31.959420] (-) TimerEvent: {}
+[32.071906] (-) TimerEvent: {}
+[32.072646] (jiwy_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[32.075862] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.173669] (-) TimerEvent: {}
+[32.283753] (-) TimerEvent: {}
+[32.355036] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.390760] (-) TimerEvent: {}
+[32.435942] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.438929] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.447833] (jiwy_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[32.495506] (-) TimerEvent: {}
+[32.599911] (-) TimerEvent: {}
+[32.700388] (-) TimerEvent: {}
+[32.787015] (jiwy_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[32.793913] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.807805] (-) TimerEvent: {}
+[32.908263] (-) TimerEvent: {}
+[33.010755] (-) TimerEvent: {}
+[33.097262] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.115169] (-) TimerEvent: {}
+[33.179728] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.181539] (jiwy_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.190461] (jiwy_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[33.215696] (-) TimerEvent: {}
+[33.322077] (-) TimerEvent: {}
+[33.328257] (jiwy_simulator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[33.328791] (jiwy_simulator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[33.427475] (-) TimerEvent: {}
+[33.528059] (-) TimerEvent: {}
+[33.629373] (-) TimerEvent: {}
+[33.703253] (jiwy_simulator) StdoutLine: {'line': b'-- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[33.729617] (-) TimerEvent: {}
+[33.831247] (-) TimerEvent: {}
+[33.936027] (-) TimerEvent: {}
+[33.951733] (jiwy_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.986317] (jiwy_simulator) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[34.036670] (-) TimerEvent: {}
+[34.137452] (-) TimerEvent: {}
+[34.238602] (-) TimerEvent: {}
+[34.283873] (jiwy_simulator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[34.341927] (-) TimerEvent: {}
+[34.398638] (jiwy_simulator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[34.443590] (-) TimerEvent: {}
+[34.551188] (-) TimerEvent: {}
+[34.657745] (-) TimerEvent: {}
+[34.719417] (jiwy_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.763658] (-) TimerEvent: {}
+[34.865162] (-) TimerEvent: {}
+[34.971162] (-) TimerEvent: {}
+[35.038949] (jiwy_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[35.053141] (jiwy_simulator) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[35.072637] (-) TimerEvent: {}
+[35.154071] (jiwy_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[35.158890] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[35.182323] (-) TimerEvent: {}
+[35.287696] (-) TimerEvent: {}
+[35.391478] (-) TimerEvent: {}
+[35.465066] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[35.466084] (jiwy_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.491781] (-) TimerEvent: {}
+[35.596117] (-) TimerEvent: {}
+[35.697156] (-) TimerEvent: {}
+[35.799175] (-) TimerEvent: {}
+[35.818698] (jiwy_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[35.821540] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[35.905505] (-) TimerEvent: {}
+[36.013796] (-) TimerEvent: {}
+[36.080598] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[36.081317] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[36.119305] (-) TimerEvent: {}
+[36.219889] (-) TimerEvent: {}
+[36.321260] (-) TimerEvent: {}
+[36.339995] (jiwy_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[36.351164] (jiwy_simulator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.431602] (-) TimerEvent: {}
+[36.532979] (-) TimerEvent: {}
+[36.636454] (-) TimerEvent: {}
+[36.737057] (-) TimerEvent: {}
+[36.847627] (-) TimerEvent: {}
+[36.955756] (-) TimerEvent: {}
+[37.056481] (-) TimerEvent: {}
+[37.159324] (-) TimerEvent: {}
+[37.161531] (jiwy_simulator) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.3 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[37.260158] (-) TimerEvent: {}
+[37.360857] (-) TimerEvent: {}
+[37.461363] (-) TimerEvent: {}
+[37.566640] (-) TimerEvent: {}
+[37.672026] (-) TimerEvent: {}
+[37.775272] (-) TimerEvent: {}
+[37.879242] (-) TimerEvent: {}
+[37.942504] (jiwy_simulator) StdoutLine: {'line': b'-- Found rtsd_interfaces: 0.0.0 (/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake)\n'}
+[37.979437] (-) TimerEvent: {}
+[38.035329] (jiwy_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[38.083003] (-) TimerEvent: {}
+[38.183550] (-) TimerEvent: {}
+[38.287835] (-) TimerEvent: {}
+[38.346423] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[38.351398] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[38.355296] (jiwy_simulator) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/jiwy_simulator/include>\n'}
+[38.359202] (jiwy_simulator) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[38.361793] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[38.362127] (jiwy_simulator) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[38.371220] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[38.373012] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[38.373273] (jiwy_simulator) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[38.379236] (jiwy_simulator) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[38.396843] (-) TimerEvent: {}
+[38.408440] (jiwy_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[38.507508] (-) TimerEvent: {}
+[38.509080] (jiwy_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[38.528030] (jiwy_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator\n'}
+[38.566388] (jiwy_simulator) CommandEnded: {'returncode': 0}
+[38.571370] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'build'}
+[38.571424] (jiwy_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator', '--', '-j1', '-l1'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic')]), 'shell': False}
+[38.611239] (-) TimerEvent: {}
+[38.714579] (-) TimerEvent: {}
+[38.776970] (jiwy_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target setpoint_simulator\x1b[0m\n'}
+[38.814712] (-) TimerEvent: {}
+[38.915174] (-) TimerEvent: {}
+[39.016891] (-) TimerEvent: {}
+[39.051801] (jiwy_simulator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/setpoint_simulator.dir/src/setpoint_simulator.cpp.o\x1b[0m\n'}
+[39.119402] (-) TimerEvent: {}
+[39.223783] (-) TimerEvent: {}
+[39.324350] (-) TimerEvent: {}
+[39.428315] (-) TimerEvent: {}
+[39.529856] (-) TimerEvent: {}
+[39.631751] (-) TimerEvent: {}
+[39.733379] (-) TimerEvent: {}
+[39.842116] (-) TimerEvent: {}
+[39.951906] (-) TimerEvent: {}
+[40.052444] (-) TimerEvent: {}
+[40.158821] (-) TimerEvent: {}
+[40.263782] (-) TimerEvent: {}
+[40.375224] (-) TimerEvent: {}
+[40.475981] (-) TimerEvent: {}
+[40.579257] (-) TimerEvent: {}
+[40.680489] (-) TimerEvent: {}
+[40.787330] (-) TimerEvent: {}
+[40.891408] (-) TimerEvent: {}
+[40.992470] (-) TimerEvent: {}
+[41.095579] (-) TimerEvent: {}
+[41.198407] (-) TimerEvent: {}
+[41.299701] (-) TimerEvent: {}
+[41.400498] (-) TimerEvent: {}
+[41.508528] (-) TimerEvent: {}
+[41.610121] (-) TimerEvent: {}
+[41.715582] (-) TimerEvent: {}
+[41.816982] (-) TimerEvent: {}
+[41.923142] (-) TimerEvent: {}
+[42.036273] (-) TimerEvent: {}
+[42.141014] (-) TimerEvent: {}
+[42.243168] (-) TimerEvent: {}
+[42.347188] (-) TimerEvent: {}
+[42.448508] (-) TimerEvent: {}
+[42.549178] (-) TimerEvent: {}
+[42.650968] (-) TimerEvent: {}
+[42.755851] (-) TimerEvent: {}
+[42.856439] (-) TimerEvent: {}
+[42.959192] (-) TimerEvent: {}
+[43.059863] (-) TimerEvent: {}
+[43.171202] (-) TimerEvent: {}
+[43.279170] (-) TimerEvent: {}
+[43.383326] (-) TimerEvent: {}
+[43.483936] (-) TimerEvent: {}
+[43.591211] (-) TimerEvent: {}
+[43.695765] (-) TimerEvent: {}
+[43.799197] (-) TimerEvent: {}
+[43.903173] (-) TimerEvent: {}
+[44.010123] (-) TimerEvent: {}
+[44.111565] (-) TimerEvent: {}
+[44.213031] (-) TimerEvent: {}
+[44.323389] (-) TimerEvent: {}
+[44.431357] (-) TimerEvent: {}
+[44.535846] (-) TimerEvent: {}
+[44.636576] (-) TimerEvent: {}
+[44.747178] (-) TimerEvent: {}
+[44.851365] (-) TimerEvent: {}
+[44.955238] (-) TimerEvent: {}
+[45.057403] (-) TimerEvent: {}
+[45.158788] (-) TimerEvent: {}
+[45.260923] (-) TimerEvent: {}
+[45.365597] (-) TimerEvent: {}
+[45.469621] (-) TimerEvent: {}
+[45.570607] (-) TimerEvent: {}
+[45.672097] (-) TimerEvent: {}
+[45.775351] (-) TimerEvent: {}
+[45.881068] (-) TimerEvent: {}
+[45.983483] (-) TimerEvent: {}
+[46.099179] (-) TimerEvent: {}
+[46.204074] (-) TimerEvent: {}
+[46.311167] (-) TimerEvent: {}
+[46.415766] (-) TimerEvent: {}
+[46.523183] (-) TimerEvent: {}
+[46.627218] (-) TimerEvent: {}
+[46.732064] (-) TimerEvent: {}
+[46.836385] (-) TimerEvent: {}
+[46.939324] (-) TimerEvent: {}
+[47.041370] (-) TimerEvent: {}
+[47.151699] (-) TimerEvent: {}
+[47.252407] (-) TimerEvent: {}
+[47.359557] (-) TimerEvent: {}
+[47.463231] (-) TimerEvent: {}
+[47.571695] (-) TimerEvent: {}
+[47.675759] (-) TimerEvent: {}
+[47.776323] (-) TimerEvent: {}
+[47.876937] (-) TimerEvent: {}
+[47.982278] (-) TimerEvent: {}
+[48.095210] (-) TimerEvent: {}
+[48.197116] (-) TimerEvent: {}
+[48.309349] (-) TimerEvent: {}
+[48.409991] (-) TimerEvent: {}
+[48.514720] (-) TimerEvent: {}
+[48.627390] (-) TimerEvent: {}
+[48.728444] (-) TimerEvent: {}
+[48.831939] (-) TimerEvent: {}
+[48.935277] (-) TimerEvent: {}
+[49.039510] (-) TimerEvent: {}
+[49.147178] (-) TimerEvent: {}
+[49.255222] (-) TimerEvent: {}
+[49.363140] (-) TimerEvent: {}
+[49.467438] (-) TimerEvent: {}
+[49.568012] (-) TimerEvent: {}
+[49.671213] (-) TimerEvent: {}
+[49.779258] (-) TimerEvent: {}
+[49.880093] (-) TimerEvent: {}
+[49.991318] (-) TimerEvent: {}
+[50.103552] (-) TimerEvent: {}
+[50.204124] (-) TimerEvent: {}
+[50.305585] (-) TimerEvent: {}
+[50.407271] (-) TimerEvent: {}
+[50.508122] (-) TimerEvent: {}
+[50.608688] (-) TimerEvent: {}
+[50.715759] (-) TimerEvent: {}
+[50.819199] (-) TimerEvent: {}
+[50.920462] (-) TimerEvent: {}
+[51.023190] (-) TimerEvent: {}
+[51.123762] (-) TimerEvent: {}
+[51.224301] (-) TimerEvent: {}
+[51.324967] (-) TimerEvent: {}
+[51.425525] (-) TimerEvent: {}
+[51.531443] (-) TimerEvent: {}
+[51.631929] (-) TimerEvent: {}
+[51.735336] (-) TimerEvent: {}
+[51.836016] (-) TimerEvent: {}
+[51.943247] (-) TimerEvent: {}
+[52.045635] (-) TimerEvent: {}
+[52.152878] (-) TimerEvent: {}
+[52.253401] (-) TimerEvent: {}
+[52.353913] (-) TimerEvent: {}
+[52.454424] (-) TimerEvent: {}
+[52.555207] (-) TimerEvent: {}
+[52.663149] (-) TimerEvent: {}
+[52.777786] (-) TimerEvent: {}
+[52.878311] (-) TimerEvent: {}
+[52.978882] (-) TimerEvent: {}
+[53.083534] (-) TimerEvent: {}
+[53.188324] (-) TimerEvent: {}
+[53.289132] (-) TimerEvent: {}
+[53.390637] (-) TimerEvent: {}
+[53.492127] (-) TimerEvent: {}
+[53.594657] (-) TimerEvent: {}
+[53.698776] (-) TimerEvent: {}
+[53.801483] (-) TimerEvent: {}
+[53.902041] (-) TimerEvent: {}
+[54.003581] (-) TimerEvent: {}
+[54.104117] (-) TimerEvent: {}
+[54.205776] (-) TimerEvent: {}
+[54.311205] (-) TimerEvent: {}
+[54.411852] (-) TimerEvent: {}
+[54.512458] (-) TimerEvent: {}
+[54.613970] (-) TimerEvent: {}
+[54.718697] (-) TimerEvent: {}
+[54.819259] (-) TimerEvent: {}
+[54.920247] (-) TimerEvent: {}
+[54.990224] (jiwy_simulator) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable setpoint_simulator\x1b[0m\n'}
+[55.028413] (-) TimerEvent: {}
+[55.129851] (-) TimerEvent: {}
+[55.233095] (-) TimerEvent: {}
+[55.339684] (-) TimerEvent: {}
+[55.440249] (-) TimerEvent: {}
+[55.543621] (-) TimerEvent: {}
+[55.570739] (jiwy_simulator) StdoutLine: {'line': b'[ 50%] Built target setpoint_simulator\n'}
+[55.588073] (jiwy_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jiwy_simulator\x1b[0m\n'}
+[55.658402] (-) TimerEvent: {}
+[55.760515] (-) TimerEvent: {}
+[55.825258] (jiwy_simulator) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/jiwy_simulator.dir/src/jiwy_simulator.cpp.o\x1b[0m\n'}
+[55.863812] (-) TimerEvent: {}
+[55.967276] (-) TimerEvent: {}
+[56.067810] (-) TimerEvent: {}
+[56.168300] (-) TimerEvent: {}
+[56.271715] (-) TimerEvent: {}
+[56.372263] (-) TimerEvent: {}
+[56.486041] (-) TimerEvent: {}
+[56.587972] (-) TimerEvent: {}
+[56.689474] (-) TimerEvent: {}
+[56.803295] (-) TimerEvent: {}
+[56.910603] (-) TimerEvent: {}
+[57.014269] (-) TimerEvent: {}
+[57.116755] (-) TimerEvent: {}
+[57.217984] (-) TimerEvent: {}
+[57.318984] (-) TimerEvent: {}
+[57.420521] (-) TimerEvent: {}
+[57.521307] (-) TimerEvent: {}
+[57.623539] (-) TimerEvent: {}
+[57.725077] (-) TimerEvent: {}
+[57.825998] (-) TimerEvent: {}
+[57.931833] (-) TimerEvent: {}
+[58.032485] (-) TimerEvent: {}
+[58.134841] (-) TimerEvent: {}
+[58.236460] (-) TimerEvent: {}
+[58.337285] (-) TimerEvent: {}
+[58.445531] (-) TimerEvent: {}
+[58.546739] (-) TimerEvent: {}
+[58.648254] (-) TimerEvent: {}
+[58.748811] (-) TimerEvent: {}
+[58.849466] (-) TimerEvent: {}
+[58.951738] (-) TimerEvent: {}
+[59.055264] (-) TimerEvent: {}
+[59.162463] (-) TimerEvent: {}
+[59.263181] (-) TimerEvent: {}
+[59.367236] (-) TimerEvent: {}
+[59.475233] (-) TimerEvent: {}
+[59.579362] (-) TimerEvent: {}
+[59.683745] (-) TimerEvent: {}
+[59.795359] (-) TimerEvent: {}
+[59.899337] (-) TimerEvent: {}
+[60.003911] (-) TimerEvent: {}
+[60.104689] (-) TimerEvent: {}
+[60.215897] (-) TimerEvent: {}
+[60.316715] (-) TimerEvent: {}
+[60.419262] (-) TimerEvent: {}
+[60.527194] (-) TimerEvent: {}
+[60.635244] (-) TimerEvent: {}
+[60.746541] (-) TimerEvent: {}
+[60.855915] (-) TimerEvent: {}
+[60.959248] (-) TimerEvent: {}
+[61.063766] (-) TimerEvent: {}
+[61.164345] (-) TimerEvent: {}
+[61.283411] (-) TimerEvent: {}
+[61.384553] (-) TimerEvent: {}
+[61.488650] (-) TimerEvent: {}
+[61.589869] (-) TimerEvent: {}
+[61.699143] (-) TimerEvent: {}
+[61.799853] (-) TimerEvent: {}
+[61.900614] (-) TimerEvent: {}
+[62.004608] (-) TimerEvent: {}
+[62.105272] (-) TimerEvent: {}
+[62.207619] (-) TimerEvent: {}
+[62.308312] (-) TimerEvent: {}
+[62.409614] (-) TimerEvent: {}
+[62.510196] (-) TimerEvent: {}
+[62.611779] (-) TimerEvent: {}
+[62.712694] (-) TimerEvent: {}
+[62.817603] (-) TimerEvent: {}
+[62.918293] (-) TimerEvent: {}
+[63.019523] (-) TimerEvent: {}
+[63.120314] (-) TimerEvent: {}
+[63.221669] (-) TimerEvent: {}
+[63.323283] (-) TimerEvent: {}
+[63.427245] (-) TimerEvent: {}
+[63.530520] (-) TimerEvent: {}
+[63.631821] (-) TimerEvent: {}
+[63.732814] (-) TimerEvent: {}
+[63.834151] (-) TimerEvent: {}
+[63.935010] (-) TimerEvent: {}
+[64.036580] (-) TimerEvent: {}
+[64.137209] (-) TimerEvent: {}
+[64.237999] (-) TimerEvent: {}
+[64.340142] (-) TimerEvent: {}
+[64.442157] (-) TimerEvent: {}
+[64.544090] (-) TimerEvent: {}
+[64.644816] (-) TimerEvent: {}
+[64.751948] (-) TimerEvent: {}
+[64.853469] (-) TimerEvent: {}
+[64.954111] (-) TimerEvent: {}
+[65.054947] (-) TimerEvent: {}
+[65.156014] (-) TimerEvent: {}
+[65.256591] (-) TimerEvent: {}
+[65.359979] (-) TimerEvent: {}
+[65.464629] (-) TimerEvent: {}
+[65.566023] (-) TimerEvent: {}
+[65.671471] (-) TimerEvent: {}
+[65.779150] (-) TimerEvent: {}
+[65.880283] (-) TimerEvent: {}
+[65.981700] (-) TimerEvent: {}
+[66.082266] (-) TimerEvent: {}
+[66.191282] (-) TimerEvent: {}
+[66.292298] (-) TimerEvent: {}
+[66.392932] (-) TimerEvent: {}
+[66.502824] (-) TimerEvent: {}
+[66.603433] (-) TimerEvent: {}
+[66.705154] (-) TimerEvent: {}
+[66.806576] (-) TimerEvent: {}
+[66.909859] (-) TimerEvent: {}
+[67.015347] (-) TimerEvent: {}
+[67.116681] (-) TimerEvent: {}
+[67.230404] (-) TimerEvent: {}
+[67.331249] (-) TimerEvent: {}
+[67.432026] (-) TimerEvent: {}
+[67.532840] (-) TimerEvent: {}
+[67.635289] (-) TimerEvent: {}
+[67.736493] (-) TimerEvent: {}
+[67.837973] (-) TimerEvent: {}
+[67.938762] (-) TimerEvent: {}
+[68.040013] (-) TimerEvent: {}
+[68.140617] (-) TimerEvent: {}
+[68.241251] (-) TimerEvent: {}
+[68.347161] (-) TimerEvent: {}
+[68.451174] (-) TimerEvent: {}
+[68.555169] (-) TimerEvent: {}
+[68.660722] (-) TimerEvent: {}
+[68.771802] (-) TimerEvent: {}
+[68.872522] (-) TimerEvent: {}
+[68.973158] (-) TimerEvent: {}
+[69.073754] (-) TimerEvent: {}
+[69.175104] (-) TimerEvent: {}
+[69.276595] (-) TimerEvent: {}
+[69.377720] (-) TimerEvent: {}
+[69.478437] (-) TimerEvent: {}
+[69.585201] (-) TimerEvent: {}
+[69.686465] (-) TimerEvent: {}
+[69.787223] (-) TimerEvent: {}
+[69.888311] (-) TimerEvent: {}
+[69.989036] (-) TimerEvent: {}
+[70.090548] (-) TimerEvent: {}
+[70.191218] (-) TimerEvent: {}
+[70.292284] (-) TimerEvent: {}
+[70.393343] (-) TimerEvent: {}
+[70.494374] (-) TimerEvent: {}
+[70.595252] (-) TimerEvent: {}
+[70.695860] (-) TimerEvent: {}
+[70.796503] (-) TimerEvent: {}
+[70.909017] (-) TimerEvent: {}
+[71.010913] (-) TimerEvent: {}
+[71.115299] (-) TimerEvent: {}
+[71.223625] (-) TimerEvent: {}
+[71.328134] (-) TimerEvent: {}
+[71.431836] (-) TimerEvent: {}
+[71.532441] (-) TimerEvent: {}
+[71.633127] (-) TimerEvent: {}
+[71.734065] (-) TimerEvent: {}
+[71.835569] (-) TimerEvent: {}
+[71.936220] (-) TimerEvent: {}
+[72.037664] (-) TimerEvent: {}
+[72.138260] (-) TimerEvent: {}
+[72.243507] (-) TimerEvent: {}
+[72.344214] (-) TimerEvent: {}
+[72.451393] (-) TimerEvent: {}
+[72.552183] (-) TimerEvent: {}
+[72.660351] (-) TimerEvent: {}
+[72.761866] (-) TimerEvent: {}
+[72.867232] (-) TimerEvent: {}
+[72.968120] (-) TimerEvent: {}
+[73.068824] (-) TimerEvent: {}
+[73.172727] (-) TimerEvent: {}
+[73.273464] (-) TimerEvent: {}
+[73.374356] (-) TimerEvent: {}
+[73.476175] (-) TimerEvent: {}
+[73.576776] (-) TimerEvent: {}
+[73.677517] (-) TimerEvent: {}
+[73.778390] (-) TimerEvent: {}
+[73.879358] (-) TimerEvent: {}
+[73.980404] (-) TimerEvent: {}
+[74.087248] (-) TimerEvent: {}
+[74.188919] (-) TimerEvent: {}
+[74.292113] (-) TimerEvent: {}
+[74.395964] (-) TimerEvent: {}
+[74.503902] (-) TimerEvent: {}
+[74.605408] (-) TimerEvent: {}
+[74.705955] (-) TimerEvent: {}
+[74.806550] (-) TimerEvent: {}
+[74.911893] (-) TimerEvent: {}
+[75.013368] (-) TimerEvent: {}
+[75.119208] (-) TimerEvent: {}
+[75.220290] (-) TimerEvent: {}
+[75.321746] (-) TimerEvent: {}
+[75.427174] (-) TimerEvent: {}
+[75.527758] (-) TimerEvent: {}
+[75.643137] (-) TimerEvent: {}
+[75.747196] (-) TimerEvent: {}
+[75.848767] (-) TimerEvent: {}
+[75.951275] (-) TimerEvent: {}
+[76.054166] (-) TimerEvent: {}
+[76.156211] (-) TimerEvent: {}
+[76.260384] (-) TimerEvent: {}
+[76.360981] (-) TimerEvent: {}
+[76.467165] (-) TimerEvent: {}
+[76.570083] (-) TimerEvent: {}
+[76.671035] (-) TimerEvent: {}
+[76.772103] (-) TimerEvent: {}
+[76.875222] (-) TimerEvent: {}
+[76.976011] (-) TimerEvent: {}
+[77.076663] (-) TimerEvent: {}
+[77.177343] (-) TimerEvent: {}
+[77.284435] (-) TimerEvent: {}
+[77.386859] (-) TimerEvent: {}
+[77.488099] (-) TimerEvent: {}
+[77.588869] (-) TimerEvent: {}
+[77.689626] (-) TimerEvent: {}
+[77.790250] (-) TimerEvent: {}
+[77.892168] (-) TimerEvent: {}
+[77.993090] (-) TimerEvent: {}
+[78.093926] (-) TimerEvent: {}
+[78.194754] (-) TimerEvent: {}
+[78.299159] (-) TimerEvent: {}
+[78.400077] (-) TimerEvent: {}
+[78.503499] (-) TimerEvent: {}
+[78.607196] (-) TimerEvent: {}
+[78.708561] (-) TimerEvent: {}
+[78.812810] (-) TimerEvent: {}
+[78.913451] (-) TimerEvent: {}
+[79.017248] (-) TimerEvent: {}
+[79.118820] (-) TimerEvent: {}
+[79.220331] (-) TimerEvent: {}
+[79.321869] (-) TimerEvent: {}
+[79.422433] (-) TimerEvent: {}
+[79.523142] (-) TimerEvent: {}
+[79.626363] (-) TimerEvent: {}
+[79.726999] (-) TimerEvent: {}
+[79.831287] (-) TimerEvent: {}
+[79.935172] (-) TimerEvent: {}
+[80.036274] (-) TimerEvent: {}
+[80.137472] (-) TimerEvent: {}
+[80.238276] (-) TimerEvent: {}
+[80.342474] (-) TimerEvent: {}
+[80.448137] (-) TimerEvent: {}
+[80.549700] (-) TimerEvent: {}
+[80.651127] (-) TimerEvent: {}
+[80.752547] (-) TimerEvent: {}
+[80.854140] (-) TimerEvent: {}
+[80.955625] (-) TimerEvent: {}
+[81.056304] (-) TimerEvent: {}
+[81.157674] (-) TimerEvent: {}
+[81.258434] (-) TimerEvent: {}
+[81.359234] (-) TimerEvent: {}
+[81.460437] (-) TimerEvent: {}
+[81.561675] (-) TimerEvent: {}
+[81.662460] (-) TimerEvent: {}
+[81.767226] (-) TimerEvent: {}
+[81.868116] (-) TimerEvent: {}
+[81.969759] (-) TimerEvent: {}
+[82.070433] (-) TimerEvent: {}
+[82.176537] (-) TimerEvent: {}
+[82.277448] (-) TimerEvent: {}
+[82.379224] (-) TimerEvent: {}
+[82.480551] (-) TimerEvent: {}
+[82.581591] (-) TimerEvent: {}
+[82.682137] (-) TimerEvent: {}
+[82.782779] (-) TimerEvent: {}
+[82.884182] (-) TimerEvent: {}
+[82.984923] (-) TimerEvent: {}
+[83.086076] (-) TimerEvent: {}
+[83.186723] (-) TimerEvent: {}
+[83.289186] (-) TimerEvent: {}
+[83.389878] (-) TimerEvent: {}
+[83.490841] (-) TimerEvent: {}
+[83.591765] (-) TimerEvent: {}
+[83.692499] (-) TimerEvent: {}
+[83.793780] (-) TimerEvent: {}
+[83.888188] (jiwy_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable jiwy_simulator\x1b[0m\n'}
+[83.894010] (-) TimerEvent: {}
+[83.998847] (-) TimerEvent: {}
+[84.100228] (-) TimerEvent: {}
+[84.200987] (-) TimerEvent: {}
+[84.302453] (-) TimerEvent: {}
+[84.403123] (-) TimerEvent: {}
+[84.504291] (-) TimerEvent: {}
+[84.605756] (-) TimerEvent: {}
+[84.706880] (-) TimerEvent: {}
+[84.807822] (-) TimerEvent: {}
+[84.917375] (-) TimerEvent: {}
+[85.019133] (-) TimerEvent: {}
+[85.120499] (-) TimerEvent: {}
+[85.142488] (jiwy_simulator) StdoutLine: {'line': b'[100%] Built target jiwy_simulator\n'}
+[85.176684] (jiwy_simulator) CommandEnded: {'returncode': 0}
+[85.227198] (-) TimerEvent: {}
+[85.296459] (jiwy_simulator) JobProgress: {'identifier': 'jiwy_simulator', 'progress': 'install'}
+[85.297096] (jiwy_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/jiwy_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic')]), 'shell': False}
+[85.320966] (jiwy_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[85.322689] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/lib/jiwy_simulator/jiwy_simulator\n'}
+[85.327957] (-) TimerEvent: {}
+[85.356960] (jiwy_simulator) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/lib/jiwy_simulator/jiwy_simulator" to ""\n'}
+[85.357907] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/lib/jiwy_simulator/setpoint_simulator\n'}
+[85.370887] (jiwy_simulator) StdoutLine: {'line': b'-- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/lib/jiwy_simulator/setpoint_simulator" to ""\n'}
+[85.372151] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/package_run_dependencies/jiwy_simulator\n'}
+[85.373445] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/parent_prefix_path/jiwy_simulator\n'}
+[85.374863] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.sh\n'}
+[85.376063] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/ament_prefix_path.dsv\n'}
+[85.377196] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/path.sh\n'}
+[85.378137] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/environment/path.dsv\n'}
+[85.379986] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.bash\n'}
+[85.381363] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.sh\n'}
+[85.382680] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.zsh\n'}
+[85.384047] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/local_setup.dsv\n'}
+[85.385570] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/package.dsv\n'}
+[85.387002] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/ament_index/resource_index/packages/jiwy_simulator\n'}
+[85.388260] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig.cmake\n'}
+[85.389457] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/cmake/jiwy_simulatorConfig-version.cmake\n'}
+[85.390664] (jiwy_simulator) StdoutLine: {'line': b'-- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/jiwy_simulator/share/jiwy_simulator/package.xml\n'}
+[85.395388] (jiwy_simulator) CommandEnded: {'returncode': 0}
+[85.428325] (-) TimerEvent: {}
+[85.531933] (-) TimerEvent: {}
+[85.615022] (jiwy_simulator) JobEnded: {'identifier': 'jiwy_simulator', 'rc': 0}
+[85.699450] (-) TimerEvent: {}
+[85.701958] (light_detection_3) JobStarted: {'identifier': 'light_detection_3'}
+[85.762730] (light_detection_3) JobProgress: {'identifier': 'light_detection_3', 'progress': 'cmake'}
+[85.764042] (light_detection_3) Command: {'cmd': ['/usr/bin/cmake', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3', '-DCMAKE_INSTALL_PREFIX=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3'], 'cwd': '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rtsd-user'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1184'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rtsd-user'), ('OLDPWD', '/home/rtsd-user/Documents/assignment_3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rtsd-user'), ('JOURNAL_STREAM', '8:30709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rtsd-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rtsd-vm:@/tmp/.ICE-unix/1232,unix/rtsd-vm:/tmp/.ICE-unix/1232'), ('INVOCATION_ID', '9644a04edbe84c9e95297d57d20fc90d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73dff18b_7477_48b7_a454_00feaedec5fa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic')]), 'shell': False}
+[85.811293] (-) TimerEvent: {}
+[85.915641] (-) TimerEvent: {}
+[86.018891] (-) TimerEvent: {}
+[86.064196] (light_detection_3) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[86.124875] (-) TimerEvent: {}
+[86.228020] (-) TimerEvent: {}
+[86.331411] (-) TimerEvent: {}
+[86.355933] (light_detection_3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[86.380803] (light_detection_3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[86.441771] (-) TimerEvent: {}
+[86.542318] (-) TimerEvent: {}
+[86.657451] (-) TimerEvent: {}
+[86.730665] (light_detection_3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[86.735590] (light_detection_3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[86.767704] (-) TimerEvent: {}
+[86.872176] (-) TimerEvent: {}
+[86.981747] (-) TimerEvent: {}
+[87.087810] (-) TimerEvent: {}
+[87.101551] (light_detection_3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[87.163926] (light_detection_3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[87.164994] (light_detection_3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[87.175248] (light_detection_3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[87.196186] (-) TimerEvent: {}
+[87.299606] (-) TimerEvent: {}
+[87.402874] (-) TimerEvent: {}
+[87.487776] (light_detection_3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[87.491334] (light_detection_3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[87.515174] (-) TimerEvent: {}
+[87.625945] (-) TimerEvent: {}
+[87.727592] (-) TimerEvent: {}
+[87.817610] (light_detection_3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[87.835417] (-) TimerEvent: {}
+[87.887560] (light_detection_3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[87.892063] (light_detection_3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[87.903850] (light_detection_3) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[87.938809] (-) TimerEvent: {}
+[87.991275] (light_detection_3) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[87.995370] (light_detection_3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[88.043142] (-) TimerEvent: {}
+[88.146025] (-) TimerEvent: {}
+[88.247312] (-) TimerEvent: {}
+[88.351411] (-) TimerEvent: {}
+[88.387895] (light_detection_3) StdoutLine: {'line': b'-- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[88.452187] (-) TimerEvent: {}
+[88.552731] (-) TimerEvent: {}
+[88.637122] (light_detection_3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[88.653251] (-) TimerEvent: {}
+[88.673138] (light_detection_3) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[88.755316] (-) TimerEvent: {}
+[88.857379] (-) TimerEvent: {}
+[88.963835] (-) TimerEvent: {}
+[89.023179] (light_detection_3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[89.064146] (-) TimerEvent: {}
+[89.158390] (light_detection_3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[89.167565] (-) TimerEvent: {}
+[89.271178] (-) TimerEvent: {}
+[89.372510] (-) TimerEvent: {}
+[89.475789] (light_detection_3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[89.476087] (-) TimerEvent: {}
+[89.579182] (-) TimerEvent: {}
+[89.683908] (-) TimerEvent: {}
+[89.787164] (-) TimerEvent: {}
+[89.787573] (light_detection_3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[89.799216] (light_detection_3) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[89.890289] (-) TimerEvent: {}
+[89.896099] (light_detection_3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[89.902036] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[90.000373] (-) TimerEvent: {}
+[90.103574] (-) TimerEvent: {}
+[90.176389] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[90.179841] (light_detection_3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[90.204095] (-) TimerEvent: {}
+[90.310422] (-) TimerEvent: {}
+[90.411031] (-) TimerEvent: {}
+[90.478249] (light_detection_3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[90.483250] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[90.511535] (-) TimerEvent: {}
+[90.627672] (-) TimerEvent: {}
+[90.733458] (-) TimerEvent: {}
+[90.820062] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[90.823951] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[90.833614] (-) TimerEvent: {}
+[90.934156] (-) TimerEvent: {}
+[91.038550] (-) TimerEvent: {}
+[91.140069] (-) TimerEvent: {}
+[91.243503] (-) TimerEvent: {}
+[91.247311] (light_detection_3) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[91.255441] (light_detection_3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[91.343828] (-) TimerEvent: {}
+[91.444603] (-) TimerEvent: {}
+[91.551167] (-) TimerEvent: {}
+[91.652548] (-) TimerEvent: {}
+[91.753587] (-) TimerEvent: {}
+[91.855002] (-) TimerEvent: {}
+[91.962583] (-) TimerEvent: {}
+[92.071735] (-) TimerEvent: {}
+[92.176134] (-) TimerEvent: {}
+[92.284055] (-) TimerEvent: {}
+[92.387562] (-) TimerEvent: {}
+[92.425676] (light_detection_3) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.3 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[92.489886] (-) TimerEvent: {}
+[92.603279] (-) TimerEvent: {}
+[92.711671] (-) TimerEvent: {}
+[92.812936] (-) TimerEvent: {}
+[92.914071] (-) TimerEvent: {}
+[93.018108] (-) TimerEvent: {}
+[93.122673] (-) TimerEvent: {}
+[93.228010] (-) TimerEvent: {}
+[93.335296] (-) TimerEvent: {}
+[93.337199] (light_detection_3) StdoutLine: {'line': b'-- Found rtsd_interfaces: 0.0.0 (/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake)\n'}
+[93.436806] (-) TimerEvent: {}
+[93.477770] (light_detection_3) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[93.479273] (light_detection_3) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[93.479669] (light_detection_3) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'motor_test' was not\n"}
+[93.482773] (light_detection_3) StderrLine: {'line': b'  found before\n'}
+[93.483106] (light_detection_3) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[93.483334] (light_detection_3) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[93.483649] (light_detection_3) StderrLine: {'line': b'\n'}
+[93.483863] (light_detection_3) StderrLine: {'line': b'\n'}
+[93.491635] (light_detection_3) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[93.492069] (light_detection_3) StdoutLine: {'line': b'See also "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/CMakeOutput.log".\n'}
+[93.492434] (light_detection_3) StdoutLine: {'line': b'See also "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/CMakeError.log".\n'}
+[93.528188] (light_detection_3) CommandEnded: {'returncode': 1}
+[93.542690] (-) TimerEvent: {}
+[93.629670] (light_detection_3) JobEnded: {'identifier': 'light_detection_3', 'rc': 1}
+[93.632608] (-) EventReactorShutdown: {}

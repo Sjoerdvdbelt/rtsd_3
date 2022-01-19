@@ -1,0 +1,29 @@
+[0.097s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1
+[0.348s] [ 50%] Built target motor_test
+[0.395s] [35m[1mScanning dependencies of target bright_position[0m
+[0.568s] [ 75%] [32mBuilding CXX object CMakeFiles/bright_position.dir/src/bright_position.cpp.o[0m
+[30.761s] [100%] [32m[1mLinking CXX executable bright_position[0m
+[33.457s] [100%] Built target bright_position
+[33.505s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3' returned '0': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1
+[33.684s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3
+[33.733s] -- Install configuration: ""
+[33.733s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/bright_position
+[33.749s] -- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/bright_position" to ""
+[33.750s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/motor_test
+[33.765s] -- Set runtime path of "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/lib/light_detection_3/motor_test" to ""
+[33.766s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/package_run_dependencies/light_detection_3
+[33.772s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/parent_prefix_path/light_detection_3
+[33.775s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/ament_prefix_path.sh
+[33.776s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/ament_prefix_path.dsv
+[33.776s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/path.sh
+[33.780s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/environment/path.dsv
+[33.780s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.bash
+[33.780s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.sh
+[33.781s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.zsh
+[33.782s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/local_setup.dsv
+[33.791s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/package.dsv
+[33.797s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/ament_index/resource_index/packages/light_detection_3
+[33.798s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/cmake/light_detection_3Config.cmake
+[33.799s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/cmake/light_detection_3Config-version.cmake
+[33.800s] -- Installing: /home/rtsd-user/Documents/assignment_3/ros2_nodes/install/light_detection_3/share/light_detection_3/package.xml
+[33.811s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3' returned '0': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3

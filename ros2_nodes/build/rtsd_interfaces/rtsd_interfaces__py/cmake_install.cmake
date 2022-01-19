@@ -1,8 +1,8 @@
-# Install script for directory: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rtsd_interfaces__py
+# Install script for directory: /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rtsd_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

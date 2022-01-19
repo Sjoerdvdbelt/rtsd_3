@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.005327] (-) JobUnselected: {'identifier': 'jiwy_simulator'}
+[0.005601] (-) JobUnselected: {'identifier': 'rtsd_interfaces'}
+[0.005719] (light_detection_3) JobQueued: {'identifier': 'light_detection_3', 'dependencies': OrderedDict([('rtsd_interfaces', '/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces')])}
+[0.005821] (light_detection_3) JobStarted: {'identifier': 'light_detection_3'}
+[0.084416] (light_detection_3) JobEnded: {'identifier': 'light_detection_3', 'rc': 1}
+[0.089088] (-) EventReactorShutdown: {}

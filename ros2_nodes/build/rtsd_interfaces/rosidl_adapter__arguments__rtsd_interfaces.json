@@ -1,6 +1,6 @@
 {
   "package_name": "rtsd_interfaces",
   "non_idl_tuples": [
-    "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces:msg/Point2.msg"
+    "/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces:msg/Point2.msg"
   ]
 }

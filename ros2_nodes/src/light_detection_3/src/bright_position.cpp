@@ -77,7 +77,7 @@ class BrightPosition : public rclcpp::Node
         float width_rad = 0.8;  // added robustness for width/height values of jiwy camera
         float height_rad = 0.6;
         x_light = ((x_light/msg->width)*width_rad)-(0.5*width_rad); // assuming scaling factor 1/2 for jiwy cam
-        y_light = -(((y_light/msg->height)*height_rad)-(0.5*height_rad)));
+        y_light = -(((y_light/msg->height)*height_rad)-(0.5*height_rad));
 
         x_set_ = x_light + x_jiwy_;
         y_set_ = y_light + y_jiwy_;

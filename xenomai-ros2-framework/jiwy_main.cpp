@@ -29,6 +29,8 @@ void MyReadConvert(const double* src, double *dst)
 void MyWriteConvert(const double* src, double *dst)
 {
     // Convert write data to jiwy / controller compatible values
+    dst[0] = 100;
+    dst[1] = 100;
 }
 
 int main()
@@ -54,8 +56,8 @@ int main()
     int _receiveParameters[] = {0, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1};
 
     IcoComm *icoComm = new IcoComm(_sendParameters, _receiveParameters);
-    //icoComm->SetReadConvertFcn(&MyReadConvert);
-    //icoComm->SetWriteConvertFcn(&MyWriteConvert);
+    icoComm->SetReadConvertFcn(&MyReadConvert);
+    icoComm->SetWriteConvertFcn(&MyWriteConvert);
 
     int _sendParameters_xddp[] = {0, 1, 2, 3};
     int _receiveParameters_xddp[] = {0, 1};

@@ -15,7 +15,7 @@ void IcoConnection::initSocket()
     protocol = "SPI";
 
     icoIo = new IcoIO();
-    if (~icoIo->open_spi())
+    if (!icoIo->open_spi())
     {
         printf("Error opening SPI device. Note: Only create one instance of IcoConnection and use it as\n");
         printf("both ReceiveClass and SendClass in the class wrapper.\n");
@@ -146,4 +146,3 @@ IcoComm::~IcoComm()
     printf("Destructing IcoComm...\n");
     delete xenoCommClass;
 }
-

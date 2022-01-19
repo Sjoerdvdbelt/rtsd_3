@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/depend.make
@@ -57,33 +57,33 @@ include CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/pro
 # Include the compile flags for this target's objects.
 include CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib/python3.7/site-packages/rosidl_typesupport_introspection_cpp/__init__.py
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
-rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_introspection_cpp/__init__.py
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
+rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/rtsd_interfaces/msg/Point2.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
-	/usr/bin/python3 /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
+	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
 rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp: rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o: CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o: rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o -c /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o -c /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp > CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp > CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.i
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp -o CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.s
 
 # Object files for target rtsd_interfaces__rosidl_typesupport_introspection_cpp
 rtsd_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
@@ -94,12 +94,12 @@ rtsd_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o
 librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
-librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /home/pi/ros2_galactic/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
-librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_cpp/lib/librosidl_typesupport_introspection_cpp.so
-librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /home/pi/ros2_galactic/install/rcutils/lib/librcutils.so
-librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_c/lib/librosidl_typesupport_introspection_c.so
+librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
+librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so
+librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librcutils.so
+librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so
 librtsd_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librtsd_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librtsd_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/clean:
 
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/depend
 

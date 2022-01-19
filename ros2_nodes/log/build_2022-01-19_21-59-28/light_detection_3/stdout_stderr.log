@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target motor_test[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/motor_test.dir/src/motor_test.cpp.o[0m
+[01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:[m[K In constructor ‘[01m[KMotorTest::MotorTest()[m[K’:
+[01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[KBrightPosition[m[K’ has not been declared
+   18 |       "position", 1, std::bind(&[01;31m[KBrightPosition[m[K::position_callback, this, _1));
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:20:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   20 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   20 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_test.dir/build.make:63: CMakeFiles/motor_test.dir/src/motor_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/motor_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

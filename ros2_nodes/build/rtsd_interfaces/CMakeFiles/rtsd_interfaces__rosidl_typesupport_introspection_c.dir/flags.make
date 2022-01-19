@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rtsd_interfaces\" -Drtsd_interfaces__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_generator_c -I/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_c -isystem /home/pi/ros2_galactic/install/rosidl_typesupport_introspection_c/include -isystem /home/pi/ros2_galactic/install/rosidl_runtime_c/include -isystem /home/pi/ros2_galactic/install/rcutils/include -isystem /home/pi/ros2_galactic/install/rosidl_typesupport_interface/include 
+C_INCLUDES = -I/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_generator_c -I/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include 
 

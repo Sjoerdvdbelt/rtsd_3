@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,49 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,16 +92,59 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rtsd_interfaces__py/CMakeFiles/progress.marks
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles 0
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rtsd_interfaces__py/CMakeFiles/progress.marks
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/clean
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/preinstall
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/preinstall
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/rule:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/rule
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f CMakeFiles/Makefile2 rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/rule
 .PHONY : rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ rtsd_interfaces__py: rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/rule
 
 # fast build rule for target.
 rtsd_interfaces__py/fast:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/build.make rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/build
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(MAKE) -f rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/build.make rtsd_interfaces__py/CMakeFiles/rtsd_interfaces__py.dir/build
 .PHONY : rtsd_interfaces__py/fast
 
 # Help Target
@@ -190,12 +190,12 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... rtsd_interfaces__py"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... install"
 .PHONY : help
 
 
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

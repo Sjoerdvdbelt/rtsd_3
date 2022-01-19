@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

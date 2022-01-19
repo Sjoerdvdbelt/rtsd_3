@@ -48,25 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/src/light_detection_3
+CMAKE_SOURCE_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3
+CMAKE_BINARY_DIR = /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
@@ -90,29 +78,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -135,11 +100,46 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named motor_test
+
+# Build rule for target.
+motor_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 motor_test
+.PHONY : motor_test
+
+# fast build rule for target.
+motor_test/fast:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/build
+.PHONY : motor_test/fast
+
+#=============================================================================
+# Target rules for targets named bright_position
+
+# Build rule for target.
+bright_position: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bright_position
+.PHONY : bright_position
+
+# fast build rule for target.
+bright_position/fast:
+	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/build
+.PHONY : bright_position/fast
+
+#=============================================================================
 # Target rules for targets named light_detection_3_uninstall
 
 # Build rule for target.
@@ -192,19 +218,6 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named bright_position
-
-# Build rule for target.
-bright_position: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bright_position
-.PHONY : bright_position
-
-# fast build rule for target.
-bright_position/fast:
-	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/build
-.PHONY : bright_position/fast
 
 src/bright_position.o: src/bright_position.cpp.o
 
@@ -233,25 +246,56 @@ src/bright_position.cpp.s:
 	$(MAKE) -f CMakeFiles/bright_position.dir/build.make CMakeFiles/bright_position.dir/src/bright_position.cpp.s
 .PHONY : src/bright_position.cpp.s
 
+src/motor_test.o: src/motor_test.cpp.o
+
+.PHONY : src/motor_test.o
+
+# target to build an object file
+src/motor_test.cpp.o:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/src/motor_test.cpp.o
+.PHONY : src/motor_test.cpp.o
+
+src/motor_test.i: src/motor_test.cpp.i
+
+.PHONY : src/motor_test.i
+
+# target to preprocess a source file
+src/motor_test.cpp.i:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/src/motor_test.cpp.i
+.PHONY : src/motor_test.cpp.i
+
+src/motor_test.s: src/motor_test.cpp.s
+
+.PHONY : src/motor_test.s
+
+# target to generate assembly for a file
+src/motor_test.cpp.s:
+	$(MAKE) -f CMakeFiles/motor_test.dir/build.make CMakeFiles/motor_test.dir/src/motor_test.cpp.s
+.PHONY : src/motor_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... light_detection_3_uninstall"
-	@echo "... install/local"
-	@echo "... test"
-	@echo "... uninstall"
 	@echo "... rebuild_cache"
-	@echo "... bright_position"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... install/local"
+	@echo "... motor_test"
+	@echo "... install/strip"
+	@echo "... bright_position"
+	@echo "... light_detection_3_uninstall"
+	@echo "... uninstall"
 	@echo "... src/bright_position.o"
 	@echo "... src/bright_position.i"
 	@echo "... src/bright_position.s"
+	@echo "... src/motor_test.o"
+	@echo "... src/motor_test.i"
+	@echo "... src/motor_test.s"
 .PHONY : help
 
 

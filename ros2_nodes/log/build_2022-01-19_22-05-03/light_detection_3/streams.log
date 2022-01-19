@@ -1,0 +1,20 @@
+[0.057s] Invoking command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1
+[0.274s] [35m[1mScanning dependencies of target motor_test[0m
+[0.415s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_test.dir/src/motor_test.cpp.o[0m
+[13.902s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:[m[K In member function ‘[01m[Kvoid MotorTest::position_callback(rtsd_interfaces::msg::Point2_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.903s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/motor_test.cpp:42:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.903s]    42 |     void position_callback([01;35m[Kconst rtsd_interfaces::msg::Point2::SharedPtr msg[m[K)
+[13.903s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[26.484s] [ 50%] [32m[1mLinking CXX executable motor_test[0m
+[27.727s] [ 50%] Built target motor_test
+[27.758s] [35m[1mScanning dependencies of target bright_position[0m
+[28.175s] [ 75%] [32mBuilding CXX object CMakeFiles/bright_position.dir/src/bright_position.cpp.o[0m
+[35.146s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/bright_position.cpp:[m[K In member function ‘[01m[Kvoid BrightPosition::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[35.147s] [01m[K/home/rtsd-user/Documents/assignment_3/ros2_nodes/src/light_detection_3/src/bright_position.cpp:80:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[35.147s]    80 |         y_light = -(((y_light/msg->height)*height_rad)-(0.5*height_rad))[01;31m[K)[m[K;
+[35.147s]       |                                                                         [01;31m[K^[m[K
+[35.148s]       |                                                                         [32m[K;[m[K
+[41.352s] make[2]: *** [CMakeFiles/bright_position.dir/build.make:63: CMakeFiles/bright_position.dir/src/bright_position.cpp.o] Error 1
+[41.355s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/bright_position.dir/all] Error 2
+[41.356s] make: *** [Makefile:141: all] Error 2
+[41.357s] Invoked command in '/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3' returned '2': AMENT_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rtsd-user/Documents/assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rtsd-user/Documents/assignment_3/ros2_nodes/build/light_detection_3 -- -j1 -l1

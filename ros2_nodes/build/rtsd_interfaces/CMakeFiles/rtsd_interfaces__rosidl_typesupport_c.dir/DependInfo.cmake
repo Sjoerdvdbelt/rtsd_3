@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp" "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp.o"
+  "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp" "/home/rtsd-user/Documents/assignment_3/ros2_nodes/build/rtsd_interfaces/CMakeFiles/rtsd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,11 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rosidl_generator_c"
   "rosidl_typesupport_c"
-  "/home/pi/ros2_galactic/install/rosidl_typesupport_c/include"
-  "/home/pi/ros2_galactic/install/rosidl_runtime_c/include"
-  "/home/pi/ros2_galactic/install/rosidl_typesupport_interface/include"
-  "/home/pi/ros2_galactic/install/rcutils/include"
-  "/home/pi/ros2_galactic/install/rcpputils/include"
+  "/opt/ros/galactic/include"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,6 @@ class IcoComm: public frameworkComm
 {
 protected:
 public:
-    //IcoComm();
     IcoComm(int _sendParameters[], int _receiveParameters[]);
     ~IcoComm();
 };
