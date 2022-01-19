@@ -1,0 +1,4 @@
+source;share/rtsd_interfaces/local_setup.bash
+source;share/rtsd_interfaces/local_setup.dsv
+source;share/rtsd_interfaces/local_setup.sh
+source;share/rtsd_interfaces/local_setup.zsh

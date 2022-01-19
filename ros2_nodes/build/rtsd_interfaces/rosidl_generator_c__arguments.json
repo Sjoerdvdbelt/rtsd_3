@@ -1,0 +1,24 @@
+{
+  "package_name": "rtsd_interfaces",
+  "output_dir": "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_generator_c/rtsd_interfaces",
+  "template_dir": "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_adapter/rtsd_interfaces:msg/Point2.idl"
+  ],
+  "target_dependencies": [
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/python3.7/site-packages/rosidl_generator_c/__init__.py",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/pi/ros2_galactic/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces/rosidl_adapter/rtsd_interfaces/msg/Point2.idl"
+  ]
+}

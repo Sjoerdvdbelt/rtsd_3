@@ -1,0 +1,111 @@
+JiwyModel
+=============================================================
+
+INPUTS & OUTPUTS INDICES
+------------------------
+ 
+*** INPUTS ***
+
+
+ 
+*** OUTPUTS ***
+
+
+ 
+
+
+
+
+NAMES
+-----
+
+[CONSTANTS]
+	NULL
+[PARAMETERS]
+	"ControllerPan\\PID_Pan\\kp",
+	"ControllerPan\\PID_Pan\\tauD",
+	"ControllerPan\\PID_Pan\\beta",
+	"ControllerPan\\PID_Pan\\tauI",
+	"ControllerTilt\\PID_Tilt\\kp",
+	"ControllerTilt\\PID_Tilt\\tauD",
+	"ControllerTilt\\PID_Tilt\\beta",
+	"ControllerTilt\\PID_Tilt\\tauI",
+	"Plant\\BeltPan\\r",
+	"Plant\\BeltTilt\\r",
+	"Plant\\DcamPan\\r",
+	"Plant\\DcamTilt\\r",
+	"Plant\\DmotPan\\r",
+	"Plant\\DmotTilt\\r",
+	"Plant\\GearPan\\r",
+	"Plant\\GearTilt\\r",
+	"Plant\\JcamPan\\i",
+	"Plant\\JcamTilt\\i",
+	"Plant\\JmotPan\\i",
+	"Plant\\JmotTilt\\i",
+	"Plant\\MotorPan\\r",
+	"Plant\\MotorTilt\\r",
+	"SequencePan\\PulsePan\\start_time",
+	"SequencePan\\PulsePan\\stop_time",
+	"SequencePan\\PulsePan\\amplitude",
+	"SequenceTilt\\PulseTilt\\start_time",
+	"SequenceTilt\\PulseTilt\\stop_time",
+	"SequenceTilt\\PulseTilt\\amplitude"
+
+[VARIABLES]
+	"ControllerPan\\PID_Pan\\output",
+	"ControllerPan\\PID_Pan\\pdout",
+	"ControllerPan\\PlusMinus1\\output",
+	"ControllerTilt\\PID_Tilt\\output",
+	"ControllerTilt\\PID_Tilt\\pdout",
+	"ControllerTilt\\PlusMinus\\output",
+	"Plant\\BeltPan\\p1.e",
+	"Plant\\BeltTilt\\p1.e",
+	"Plant\\DcamPan\\p.e",
+	"Plant\\DcamTilt\\p.e",
+	"Plant\\DmotPan\\p.e",
+	"Plant\\DmotTilt\\p.e",
+	"Plant\\GearPan\\p1.e",
+	"Plant\\GearPan\\p2.f",
+	"Plant\\GearTilt\\p1.e",
+	"Plant\\GearTilt\\p2.f",
+	"Plant\\JmotPan\\p.f",
+	"Plant\\JmotTilt\\p.f",
+	"Plant\\MotorPan\\p1.e",
+	"Plant\\MotorPan\\p2.e",
+	"Plant\\MotorTilt\\p1.e",
+	"Plant\\MotorTilt\\p2.e",
+	"Plant\\OneJunction3\\p3.T",
+	"Plant\\OneJunction4\\p3.T",
+	"SequencePan\\PulsePan\\output",
+	"",
+	"SequenceTilt\\PulseTilt\\output",
+	"",
+	"Plant\\JcamPan\\state",
+	"Plant\\JcamTilt\\state",
+	"Plant\\JcamPan\\p.T_in",
+	"Plant\\JcamTilt\\p.T_in"
+
+[STATES]
+	"ControllerPan\\PID_Pan\\pdstate",
+	"ControllerPan\\PID_Pan\\pistate",
+	"ControllerTilt\\PID_Tilt\\pdstate",
+	"ControllerTilt\\PID_Tilt\\pistate",
+	"Plant\\JmotPan\\state",
+	"Plant\\JmotTilt\\state",
+	"Plant\\ThetaPan\\q",
+	"Plant\\ThetaTilt\\q"
+
+[RATES]
+	"ControllerPan\\PID_Pan\\pdrate",
+	"ControllerPan\\PID_Pan\\pirate",
+	"ControllerTilt\\PID_Tilt\\pdrate",
+	"ControllerTilt\\PID_Tilt\\pirate",
+	"Plant\\JmotPan\\p.e",
+	"Plant\\JmotTilt\\p.e",
+	"Plant\\ThetaPan\\p1.omega",
+	"Plant\\ThetaTilt\\p1.omega"
+
+[MATRICES]
+	NULL
+
+

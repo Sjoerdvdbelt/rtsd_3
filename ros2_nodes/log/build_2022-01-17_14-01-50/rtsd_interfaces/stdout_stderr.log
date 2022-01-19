@@ -1,0 +1,207 @@
+-- The C compiler identification is GNU 8.3.0
+-- The CXX compiler identification is GNU 8.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.4 (/home/pi/ros2_galactic/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.7.3", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.1.1 (/home/pi/ros2_galactic/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 2.2.1 (/home/pi/ros2_galactic/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/arm-linux-gnueabihf/libcrypto.so (found version "1.1.1d")  
+-- Found FastRTPS: /home/pi/ros2_galactic/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.7.3") 
+-- Found ament_cmake_ros: 0.9.2 (/home/pi/ros2_galactic/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.7.3", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/pi/ros2_galactic/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/arm-linux-gnueabihf/libpython3.7m.so (found suitable version "3.7.3", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.7m
+-- Using PYTHON_LIBRARIES: /usr/lib/arm-linux-gnueabihf/libpython3.7m.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.10.6 (/home/pi/ros2_galactic/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/build/rtsd_interfaces
+[35m[1mScanning dependencies of target rtsd_interfaces__cpp[0m
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_generator_c[0m
+[  6%] Built target rtsd_interfaces__cpp
+[  9%] [32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rtsd_interfaces/msg/detail/point2__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library librtsd_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target rtsd_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtsd_interfaces/msg/point2__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtsd_interfaces/msg/detail/dds_fastrtps/point2__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtsd_interfaces/msg/detail/point2__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_c[0m
+[ 38%] [32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtsd_interfaces/msg/detail/point2__type_support.c.o[0m
+[ 41%] [32m[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_cpp.so[0m
+[ 45%] [32m[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 48%] [32m[1mLinking C shared library librtsd_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 51%] [32m[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 51%] Built target rtsd_interfaces__rosidl_typesupport_cpp
+[ 51%] Built target rtsd_interfaces__rosidl_typesupport_introspection_cpp
+[ 51%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c
+[ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 54%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_c[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtsd_interfaces/msg/point2__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_c.so[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtsd_interfaces/msg/detail/point2__type_support_c.cpp.o[0m
+[ 67%] Built target rtsd_interfaces__rosidl_typesupport_c
+[ 70%] [32m[1mLinking CXX shared library librtsd_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target rtsd_interfaces[0m
+[ 70%] Built target rtsd_interfaces
+[35m[1mScanning dependencies of target rtsd_interfaces__py[0m
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target rtsd_interfaces__py
+[35m[1mScanning dependencies of target rtsd_interfaces__python[0m
+[ 77%] [32mBuilding C object CMakeFiles/rtsd_interfaces__python.dir/rosidl_generator_py/rtsd_interfaces/msg/_point2_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/librtsd_interfaces__python.so[0m
+[ 80%] Built target rtsd_interfaces__python
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target rtsd_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rtsd_interfaces/_rtsd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-37m-arm-linux-gnueabihf.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-37m-arm-linux-gnueabihf.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-37m-arm-linux-gnueabihf.so[0m
+[100%] Built target rtsd_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target rtsd_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target rtsd_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/rosidl_interfaces/rtsd_interfaces
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__functions.c
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.sh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/library_path.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_c.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.c
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__builder.hpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__traits.hpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__struct.hpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/point2.hpp
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg
+-- Up-to-date: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/include/rtsd_interfaces/msg/detail/point2__type_support.cpp
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.sh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/pythonpath.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/__init__.py
+Compiling '/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/__init__.py'...
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/msg
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/msg/_point2_s.c
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/msg/_point2.py
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/msg/__init__.py
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-37m-arm-linux-gnueabihf.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_introspection_c.cpython-37m-arm-linux-gnueabihf.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-37m-arm-linux-gnueabihf.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-37m-arm-linux-gnueabihf.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-37m-arm-linux-gnueabihf.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/python3.7/site-packages/rtsd_interfaces/rtsd_interfaces_s__rosidl_typesupport_c.cpython-37m-arm-linux-gnueabihf.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__python.so
+-- Set runtime path of "/home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/lib/librtsd_interfaces__python.so" to ""
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.idl
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/msg/Point2.msg
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/package_run_dependencies/rtsd_interfaces
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/parent_prefix_path/rtsd_interfaces
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.sh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/environment/path.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.bash
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.sh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.zsh
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/local_setup.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.dsv
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/ament_index/resource_index/packages/rtsd_interfaces
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/cmake/rtsd_interfacesConfig-version.cmake
+-- Installing: /home/rtsd_group_01/code/rtsd_assignment_3/ros2_nodes/install/rtsd_interfaces/share/rtsd_interfaces/package.xml

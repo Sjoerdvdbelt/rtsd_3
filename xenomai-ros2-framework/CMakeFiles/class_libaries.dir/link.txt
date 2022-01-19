@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclass_libaries.a  CMakeFiles/class_libaries.dir/framework/communicationClass.cpp.o CMakeFiles/class_libaries.dir/framework/gpioClass.cpp.o CMakeFiles/class_libaries.dir/framework/icoCommClass.cpp.o CMakeFiles/class_libaries.dir/framework/ico_io.cpp.o CMakeFiles/class_libaries.dir/framework/multiCommClass.cpp.o CMakeFiles/class_libaries.dir/framework/runnableClass.cpp.o CMakeFiles/class_libaries.dir/framework/superThread.cpp.o
+/usr/bin/ranlib libclass_libaries.a

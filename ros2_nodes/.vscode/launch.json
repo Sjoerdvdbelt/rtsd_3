@@ -1,0 +1,47 @@
+    {   // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "(gdb) ROS2",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/install/${input:package}/lib/${input:package}/${input:program}",
+                "args": [],
+                "additionalSOLibSearchPath": "/opt/ros/galactic/lib",
+                "stopAtEntry": true,
+                "cwd": "${workspaceFolder}",
+                "environment": [
+                    {
+                    "name": "LD_LIBRARY_PATH",
+                    "value": "${LD_LIBRARY_PATH}:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib"
+                    }
+                    ],
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+            },
+        ],
+
+        "inputs": [
+            {
+                "id": "package",
+                "type": "promptString",
+                "description": "Package name",
+                "default": "jiwy_simulator"
+            },
+            {
+                "id": "program",
+                "type": "promptString",
+                "description": "Program name",
+                "default": "jiwy_simulator"
+            }
+        ]  
+    }
